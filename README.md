@@ -1,11 +1,17 @@
-dynamic_robotics_projects
-=========================
+Dynamic Robotics Project
+================
 
-Dynamic Robotics Project for Professor Hurst
+###Description:
 
-Team members:
+The first step in this project will be to setup MATLAB, Simulink, and xPC target so that we can interface with the medulla 1.5 board.
+
+Project Website: TBD
+
+###Collaborators
 Sean Penney
 
 John Cargill
 
 Daniel Lin
+
+
