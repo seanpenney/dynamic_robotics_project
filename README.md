@@ -3,15 +3,15 @@ Dynamic Robotics Project
 
 ###Description:
 
-The first step in this project will be to setup MATLAB, Simulink, and xPC target so that we can interface with the medulla 1.5 board.
+We will be using Simulink and xPC to help the Dynamic Robotics Lab on interfacing their custom boards with MATLAB software interfaces. 
 
 Project Website: TBD
 
 ###Collaborators
-Sean Penney
-
-John Cargill
-
 Daniel Lin
+
+Sean Penny  
+
+John Cargill 
 
 
