@@ -3,6 +3,6 @@
 -MATLAB Coder
 -Simulink
 -Simulink coder
--gcc 4.7x
+-gcc 4.7.x
 
 http://www.mathworks.com/products/availability/#RT
