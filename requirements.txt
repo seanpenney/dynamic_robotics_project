@@ -4,5 +4,6 @@
 -Simulink
 -Simulink coder
 -gcc 4.7.x
+-stateflow?
 
 http://www.mathworks.com/products/availability/#RT
