@@ -1,0 +1,6 @@
+-Host desktop running 64 bit ubuntu 12.04 LTS
+-MATLAB (2014a?, need to figure out what version)
+-MATLAB Coder
+-Simulink
+-Simulink coder
+-gcc 4.7x
