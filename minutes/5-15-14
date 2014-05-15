@@ -1,0 +1,17 @@
+Meeting Minutes for 5/15/14
+
+Participants: Sean Penney, John Cargill, Daniel Lin
+
+Location: Robotics Lab
+
+Goals: Find the correct ethernet card for etherCAT, and write down all the specs
+so we can put it in our formal request for hardware and software.
+
+Notes: Hurst has told us that depending on our performance being
+hired over Summer is an option.
+
+For choosing the right ethernet card we have been told that documentation on the
+internet is not completely reliable, and that it will be best to guess and check 
+our currently available cards.
+
+Future Improvements:
