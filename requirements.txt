@@ -1,14 +1,28 @@
 -Host desktop running 64 bit ubuntu 12.04 LTS
+-gcc 4.7.x
 
+
+System Rewquirements
 HARDWARE
 -
 
-SOFTWARE
+SOFTWARE (Licensing = Education)
 -MATLAB 2014a
+    Software Requirements: none
+    http://www.mathworks.com/pricing-licensing/index.html?intendeduse=student?s_iid=sysreq_pl_unk_tb
 -MATLAB Coder
+    Software Requirements: MATLAB
+    http://www.mathworks.com/pricing-licensing/index.html?prodcode=ME&s_iid=main_pl_ME_tb
 -Simulink
+    Software Requirements: MATLAB
+    http://www.mathworks.com/pricing-licensing/index.html?intendeduse=edu&prodcode=SL
 -Simulink coder
--gcc 4.7.x
+    Software Requirements: MATLAB, Simulink, MATLAB Coder
+    http://www.mathworks.com/pricing-licensing/index.html?prodcode=RT&s_iid=main_pl_RT_tb
 -stateflow
+    Software Requirements: MATLAB, Simulink
+    http://www.mathworks.com/pricing-licensing/index.html?prodcode=SF&s_iid=main_pl_SF_tb
 
-http://www.mathworks.com/products/availability/#RT
+FUTURE CONSIDERATION
+-Speedgoat
+    http://www.mathworks.com/products/connections/product_detail/service_35987.html
