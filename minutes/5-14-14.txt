@@ -10,7 +10,7 @@ Research EtherCAT, xPC target
 
 What did we accomplish: Went through tutorials
 Mathworks account:
-penneysaur
+sjdrobotics
 P3nneysaur
 
 Read through documentation
