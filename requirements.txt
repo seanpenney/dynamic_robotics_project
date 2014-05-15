@@ -1,9 +1,14 @@
 -Host desktop running 64 bit ubuntu 12.04 LTS
--MATLAB (2014a?, need to figure out what version)
+
+HARDWARE
+-
+
+SOFTWARE
+-MATLAB 2014a
 -MATLAB Coder
 -Simulink
 -Simulink coder
 -gcc 4.7.x
--stateflow?
+-stateflow
 
 http://www.mathworks.com/products/availability/#RT
