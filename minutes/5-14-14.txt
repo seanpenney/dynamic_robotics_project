@@ -1,0 +1,19 @@
+Meeting Minutes for 5/14/14
+
+Participants: Sean Penney, John Cargill, Daniel Lin
+
+Location: Robotics Lab
+
+Goals:
+Research EtherCAT, xPC target
+
+
+What did we accomplish: Went through tutorials
+Mathworks account:
+penneysaur
+P3nneysaur
+
+Read through documentation
+
+Future Improvements:
+Need clarification on stateflow, realtime workshop
