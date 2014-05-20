@@ -7,6 +7,8 @@ Location: Robotics Lab
 Goals: Ask about receiving a Matlab account with licenses 
 to access documentation.  Ask Michael about MATLAB libraries to get from  Michigan.
 
-Notes: 
+Notes: Tried to trouble shoot XPC target. 
 
-Future Improvements:
+Future Improvements: On Wednesday we want to type up the requirements formally and
+send them to Hurst.  We also want the official MATLAB documentation that comes with
+the new licenses that we are asking for. Also, fiddle around with XPC target. 
