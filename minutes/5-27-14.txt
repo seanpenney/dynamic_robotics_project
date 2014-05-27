@@ -1,0 +1,15 @@
+Meeting Minutes for 5/27/14
+
+Participants: Sean Penney, John Cargill, Daniel Lin
+
+Location: Dynamic Robotics Lab
+
+Goals:
+
+Talk to Leanne
+
+
+Notes:
+Leanne and the IT department is figuring out the licensing issues and trying to find an Intel Pro 100 network card for us to use.
+Leanne will also install a fresh Win7 copy on our desktop over the network.
+Doctor Hurst needs to give approval, then the licenses for the Mathworks products will be purchased.
