@@ -19,6 +19,9 @@ SOFTWARE (Licensing = Education)
 -Simulink coder
     Software Requirements: MATLAB, Simulink, MATLAB Coder
     http://www.mathworks.com/pricing-licensing/index.html?prodcode=RT&s_iid=main_pl_RT_tb
+-Simulink Real-Time
+    Software Requirements: MATLAB, Simulink, Simulink Coder, MATLAB Coder
+    http://www.mathworks.com/pricing-licensing/index.html?intendeduse=edu&prodcode=XP
 -stateflow
     Software Requirements: MATLAB, Simulink
     http://www.mathworks.com/pricing-licensing/index.html?prodcode=SF&s_iid=main_pl_SF_tb
