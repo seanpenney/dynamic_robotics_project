@@ -7,6 +7,9 @@ We will be using Simulink and xPC to help the Dynamic Robotics Lab on interfacin
 
 Project Website: https://sites.google.com/a/onid.oregonstate.edu/dynamic-robotics-lab---xpc-resources/
 
+Ethercat documentation:
+https://code.google.com/p/medulla/source/browse/trunk/hardware/medulla.0/Datasheets/EtherCAT_ET1100_Datasheet_all_v1i6.pdf
+
 ###Collaborators
 Daniel Lin
 
