@@ -4,7 +4,7 @@
 
 System Rewquirements
 HARDWARE
--
+- http://www.ebay.com/itm/82559-Chipset-RJ45-Low-Profile-PCI-Ethernet-Network-Adapter-Lan-Card-10-100Mbps-/321403386671?pt=US_Internal_Network_Cards&hash=item4ad5227b2f
 
 SOFTWARE (Licensing = Education)
 -MATLAB 2014a
