@@ -18,5 +18,8 @@ https://www.mathworks.com/products/simulink-real-time/supported/xpc-target-suppo
 Elmo Gold Drum Manual:
 http://www.elmomc.com/support/manuals/MAN-G-DRUMIG-EC.pdf
 
+Elmo Application Studio: 
+http://www.elmomc.com/products/application-studio.htm
+
 Medulla - Google Code: 
 https://code.google.com/p/medulla/
