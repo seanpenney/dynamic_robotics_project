@@ -16,7 +16,7 @@ Elmo Gold Drum Manual:
 http://www.elmomc.com/support/manuals/MAN-G-DRUMIG-EC.pdf
 
 Elmo Application Studio: 
-http://www.elmomc.com/products/application-studio.htm
+http://www.elmomc.com/products/application-studio.html
 
 Medulla - Google Code: 
 https://code.google.com/p/medulla/
