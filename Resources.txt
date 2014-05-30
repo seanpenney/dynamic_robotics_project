@@ -6,9 +6,6 @@ http://code.google.com/p/atrias/wiki/xpc
 Michigan's Marlo Site:
 https://sites.google.com/a/umich.edu/atrias/
 
-Michigan Documentation: 
-https://sites.google.com/a/umich.edu/atrias/?pli=1 (use your school email)
-
 Simulink Real-Time Documentation: 
 http://www.mathworks.com/help/xpc/index.html (sjdrobotics)
 
