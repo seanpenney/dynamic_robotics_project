@@ -11,7 +11,6 @@ Research EtherCAT, xPC target
 What did we accomplish: Went through tutorials
 Mathworks account:
 sjdrobotics
-P3nneysaur
 
 Read through documentation
 
