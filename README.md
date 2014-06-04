@@ -11,10 +11,8 @@ Ethercat documentation:
 https://code.google.com/p/medulla/source/browse/trunk/hardware/medulla.0/Datasheets/EtherCAT_ET1100_Datasheet_all_v1i6.pdf
 
 ###Collaborators
-Daniel Lin
+Sean Penney
 
-Sean Penny  
+John Cargill
 
-John Cargill 
-
-
+Dan Lin
