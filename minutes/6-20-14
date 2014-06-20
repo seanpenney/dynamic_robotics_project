@@ -1,0 +1,16 @@
+Meeting Minutes for 6/20/14
+
+Participants: Sean Penney, Daniel Lin
+
+Location: Robotics Lab
+
+Goals:
+Diagnose matlab, xpc explorer, network boot
+
+
+What did we accomplish: 
+Fixed matlab 2013 by reading the error message.
+Switched over to the dell optiplex because the old target machine had a loose cable connecting the power button.
+Figured out what ethernet cards to use.
+
+Future Improvements:
