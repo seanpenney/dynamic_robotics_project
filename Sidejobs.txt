@@ -1,0 +1,9 @@
+Extra jobs that Hurst has mentioned:
+
+-Extra leg motor that has ceased working that he would like us to diagnose.
+  -location: Atrias 2.0/Harmonic Drive drawer.
+
+-He would like us to have the blue leg next to the door also.  
+  -Suggested we connect it to a Ronex module, or install simulink on one of the 
+   computers next to it.
+   
