@@ -18,5 +18,8 @@ http://www.elmomc.com/support/manuals/MAN-G-DRUMIG-EC.pdf
 Elmo Application Studio: 
 http://www.elmomc.com/products/application-studio.html
 
+Don Baughan from Elmo's email:
+dbaughan@elmomc.com
+
 Medulla - Google Code: 
 https://code.google.com/p/medulla/
