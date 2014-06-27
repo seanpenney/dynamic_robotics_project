@@ -7,5 +7,10 @@ Location: DRL
 Goals:
 
 What did we accomplish:
+-More debugging on the desk motor.
+-Designated responsibility for tasks.
+
 
 Future Improvements:
+-Ask Hurst what the benefits of using a load cell are.  Specifically why couldn't we
+ instead use a flywheel since we know the moment of inertia.
