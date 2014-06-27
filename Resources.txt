@@ -23,3 +23,6 @@ dbaughan@elmomc.com
 
 Medulla - Google Code: 
 https://code.google.com/p/medulla/
+
+Miniature Load Cell, LCM-202-100N Documentation:
+http://www.omega.com/Pressure/pdf/LCM202.pdf
