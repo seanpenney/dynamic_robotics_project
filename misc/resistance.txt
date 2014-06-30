@@ -5,3 +5,10 @@ R-B: .15 ohms
 
 Leg
 	.13 ohms
+
+
+inductance for motor on table:
+.12 mH and .13 mH
+
+terminal inductance for atrias motor:
+.102 mH +/- 30 %
