@@ -1,0 +1,7 @@
+(resistance)
+motor (white)
+
+R-B: .15 ohms
+
+Leg
+	.13 ohms
