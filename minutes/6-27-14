@@ -7,5 +7,11 @@ Location: DRL
 Goals:
 
 What did we accomplish:
+-More debugging on the desk motor.
+-Designated responsibility for tasks.
+-Asked Hurst what the benefits of using a load cell are.  Specifically why couldn't we
+ instead use a flywheel since we then we would know the moment of inertia.
+ Response: Do what you want, but using load cells is the better option.
+-Ordered parts for the load cell amplifier off digi-key.
 
 Future Improvements:

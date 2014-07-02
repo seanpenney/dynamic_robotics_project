@@ -1,0 +1,16 @@
+Meeting Minutes for 6/30/14
+
+Participants: Sean Penney, Daniel Lin, John Cargill, Patrick
+
+Location: DRL
+
+Goals:
+
+What did we accomplish:
+-Took apart seized motor
+-Called person to try to figure out issues with ethercat delay
+-We know there is latency because the torque/position are offset.
+-May be missing execution time, but 4 ms 
+
+
+Future Improvements:

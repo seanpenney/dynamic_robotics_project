@@ -1,0 +1,13 @@
+7/2/14
+John, Sean, and Dan's Slides
+HIGH PRIORITY
+-ID the three motors
+-Measure motor torque
+
+LOW PRIORITY
+-Setup AMASC with Simulink Realtime, and wire it up
+
+Patrick's Slides
+-
+
+7/9/14
