@@ -1,0 +1,13 @@
+Meeting Minutes for 7/8/14
+
+Participants: Sean Penney, Daniel Lin, John Cargill, Patrick
+
+Location: DRL
+
+Goals:
+-Read thermistor data with Medulla
+-Measure bench motor torque
+
+What did we accomplish:
+-Installed twincat 3, found that you need to 'add task with image'
+-
