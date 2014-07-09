@@ -7,6 +7,7 @@ Location: DRL
 Goals:
 -Read thermistor data with Medulla
 -Measure bench motor torque
+-Have to debug connection to Medulla
 
 What did we accomplish:
 -Renishaw RESOLUTE encoders were setup
