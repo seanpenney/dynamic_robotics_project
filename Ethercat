@@ -1,3 +1,21 @@
 Author: Daniel Lin 
 
 Below are some helpful documents that I have read that provides useful information on Ethercat. This document will be updated frequently. 
+
+Ethercat Specifications Part 1
+https://docs.google.com/a/onid.oregonstate.edu/viewer?a=v&pid=sites&srcid=dW1pY2guZWR1fGF0cmlhc3xneDo0MmZiNGZiMDAyYzJlMzhh
+
+Ethercat Slave Implementation Guide (Does not contain specific informations about implementing the slave. Rather, it contains useful terms and concepts helpful for slave implementation)
+http://www.ethercat.org/pdf/english/ETG2200_V2i0i0_SlaveImplementationGuide.pdf
+
+Ethercat Knolwedge Base from Beckhoff. 
+http://www.ethercat.org/login.aspx?ReturnUrl=%2fmemberarea%2fen%2fknowledge_base.htm
+
+Documentation about CAN and CANOpen protocols that are essential to Ethercat
+http://www.copleycontrols.com/Motion/pdf/CANopenProgrammersManual.pdf#page=32&zoom=auto,63,476
+
+Stackoverflow page that contains vital documentations about Ethercat
+http://stackoverflow.com/questions/17146332/how-can-i-study-ethercat-without-any-background
+
+Ethercat Master Documentation
+http://etherlab.org/download/ethercat/ethercat-1.5.2.pdf
