@@ -1,0 +1,14 @@
+Meeting Minutes for 7/14/14
+
+Participants: Sean Penney, Daniel Lin, John Cargill, Patrick
+
+Location: DRL
+
+Goals:
+-Bender internet
+-Finish troubleshooting Medulla.
+
+What did we accomplish:
+-Diagnosed issue with serial cable (found that red is medulla transmit)
+-Started to make progress on getting DRL-Bender connected to internet
+-Found out why makefile was having issues before (needed to setup environment properly by linking files)
