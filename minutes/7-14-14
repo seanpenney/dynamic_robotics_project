@@ -12,3 +12,5 @@ What did we accomplish:
 -Diagnosed issue with serial cable (found that red is medulla transmit)
 -Started to make progress on getting DRL-Bender connected to internet
 -Found out why makefile was having issues before (needed to setup environment properly by linking files)
+-Fixed firmware build environment
+-Solved serial comm. issue
