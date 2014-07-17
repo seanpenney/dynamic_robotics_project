@@ -1,0 +1,8 @@
+Simulink GUI Specifications (from Dr. Hurst):
+
+1.	Read Thermistor, model, and leg data on the GUI
+2.	Real-time leg positioning and update leg positioning 
+3.	Emergency stop button and Simulink config buttons 
+4.	Everything about motor must be on Simulink 
+
+
