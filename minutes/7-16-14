@@ -1,0 +1,15 @@
+Meeting Minutes for 7/16/14
+
+Participants: Sean Penney, Daniel Lin, John Cargill, Patrick
+
+Location: DRL
+
+Goals:
+-Some data in Simulink RT is still not being read
+-Start working on Simulink RT GUI
+
+What did we accomplish:
+-Medulla fully functional in Simulink RT
+-All thermistors reading data
+-Have safety blocks for temperature in the Simulink model
+-Began planning for GUI
