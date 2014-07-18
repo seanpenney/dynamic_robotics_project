@@ -1,0 +1,20 @@
+Simulink GUI Specifications: 
+
+1.	Read Thermistor, model, and leg data on the GUI
+2.	Real-time leg positioning and update leg positioning 
+3.	Emergency stop button and Simulink config buttons 
+4.	Everything about motor must be on Simulink 
+
+Design notes:
+
+1.  Enable, Emergency, start, and stop buttons 
+2.  Model editing button and sync with model for GUI
+3.  Easy to use guide to help user start, drive, and stop ATRIAS
+4.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
+5.  Real Leg Motion Capture ( HD CAM with Simulink?) 
+6.  Log file 
+
+Graphs: 
+1st Stage: Get Position, Control, Motor Control graphs on GUI, Temperature 
+
+ 
