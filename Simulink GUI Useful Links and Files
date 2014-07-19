@@ -1,4 +1,8 @@
 Useful Example For Programming Simulink GUI models from MATLAB Website
+
 http://www.mathworks.com/help/matlab/creating_guis/gui-for-setting-simulink-model-parameters.html
 
 
+Useful Example For Setting Blocks in Simulink Model in MATLAB
+
+http://www.mathworks.com/matlabcentral/answers/40291-set-simulink-block-values-from-gui-in-a-running-model-using-a-runtimeblock
