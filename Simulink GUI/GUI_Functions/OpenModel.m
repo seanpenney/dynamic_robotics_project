@@ -1,12 +1,27 @@
+% function OpenModel()
+% 
+% Description:
+%   
+% This function opens user-selected Simulink Model
+%  
+% Fields: None
+% 
+% Initial: None 
+% 
+% Final: None 
+%
+
 function OpenModel()
 
-    filename = uigetfile({'*.*','All Simulink Model Files, *.slx';});
+    file_name = uigetfile({'*.*','All Simulink Model Files, *.slx';});
         
-    [pathstr, name, ext] = fileparts(filename);
+    [pathstr, name, ext] = fileparts(file_name);
     
-    if ~isempty(filename) && strcmp(ext, '.slx') == 1
+    if ~isempty(file_name) && strcmp(ext, '.slx') == 1
 
-        open_system(filename);
+        % open the model 
+        open_system(file_name);
+        
         
     else
 
