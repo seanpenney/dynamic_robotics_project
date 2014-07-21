@@ -13,25 +13,27 @@
 %
 
 function Model_Block_Values = SyncSimulinkModelWithGUI(model_name)
-
+   
+     % create struct to store block names and values
+     block_value_struct = struct();
+          
      list_blocks_in_model = find_system(model_name);
      
+     sz_list_blocks = size(list_blocks_in_model);
+            
+     for idx = 1:sz_list_blocks(1)
      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        block_value_struct(idx).name_of_block = 
+         
+         
+         
+         
+         
+         
+         
+         
+         
+     end
 
 
 
