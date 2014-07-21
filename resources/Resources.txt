@@ -1,0 +1,28 @@
+List of useful resources found thus far:
+
+OSU Atrias - Google Code: 
+http://code.google.com/p/atrias/wiki/xpc
+
+Michigan's Marlo Site:
+https://sites.google.com/a/umich.edu/atrias/
+
+Simulink Real-Time Documentation: 
+http://www.mathworks.com/help/xpc/index.html (sjdrobotics)
+
+Simulink Real-Time Supported Ethernet Chipsets: (p.4)
+https://www.mathworks.com/products/simulink-real-time/supported/xpc-target-supported-ethernet-chipsets.pdf
+
+Elmo Gold Drum Manual:
+http://www.elmomc.com/support/manuals/MAN-G-DRUMIG-EC.pdf
+
+Elmo Application Studio: 
+http://www.elmomc.com/products/application-studio.html
+
+Don Baughan from Elmo's email:
+dbaughan@elmomc.com
+
+Medulla - Google Code: 
+https://code.google.com/p/medulla/
+
+Miniature Load Cell, LCM-202-100N Documentation:
+http://www.omega.com/Pressure/pdf/LCM202.pdf
