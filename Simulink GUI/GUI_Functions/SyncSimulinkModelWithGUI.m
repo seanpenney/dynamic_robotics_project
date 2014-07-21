@@ -23,9 +23,8 @@ function Model_Block_Values = SyncSimulinkModelWithGUI(model_name)
             
      for idx = 1:sz_list_blocks(1)
      
-        block_value_struct(idx).name_of_block = 
-         
-         
+        block_value_struct(idx).name_of_block = list_blocks_in_model(idx);
+        block_value_struct(idx).value_of_block = get_param(list_blocks_in_model(idx), );
          
          
          
