@@ -1,4 +1,4 @@
-% function Existance = CheckBlockExistence(model_name, block_name)
+% function Existence = CheckBlockExistence(model_name, block_name)
 %
 % Description:
 %  
@@ -12,7 +12,7 @@
 % Final: Returns 0 for true and 1 for false 
 %
 
-function Existance = CheckBlockExistence(model_name, block_name)
+function Existence = CheckBlockExistence(model_name, block_name)
 
     block_list_of_system = find_system(model_name);
     
@@ -21,11 +21,11 @@ function Existance = CheckBlockExistence(model_name, block_name)
     if isempty(ind)
         
         errordlg('Your block does not exist in this model!');
-        Existance = 1;
+        Existence = 1;
         
     else 
         
-        Existance = 0;
+        Existence = 0;
         
     end
   
