@@ -17,7 +17,7 @@ Control, Motor Control graphs on GUI, Temperature
 
 General Proc of opening GUI model: 
 
-roslaunch atrias_orocos_csim.launch 
+roslaunch atrias orocos_csim.launch 
 new window
 roslaunch atrias gui.launch 
 
