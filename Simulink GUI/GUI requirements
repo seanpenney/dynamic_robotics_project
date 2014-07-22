@@ -8,13 +8,12 @@ Simulink GUI Specifications:
 Design notes:
 
 1.  Enable, Emergency, start, and stop buttons 
-2.  Model editing button and sync with model for GUI
-3.  Easy to use guide to help user start, drive, and stop ATRIAS
-4.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
-5.  Real Leg Motion Capture ( HD CAM with Simulink?) 
-6.  Log file 
+2.  Easy to use guide to help user start, drive, and stop ATRIAS
+3.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
+4.  Graphs and status of model 
+5.  Log file 
 
 Graphs: 
-1st Stage: Get Position, Control, Motor Control graphs on GUI, Temperature 
+Control, Motor Control graphs on GUI, Temperature 
 
  
