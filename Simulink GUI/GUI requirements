@@ -8,12 +8,17 @@ Simulink GUI Specifications:
 Design notes:
 
 1.  Enable, Emergency, start, and stop buttons 
-2.  Easy to use guide to help user start, drive, and stop ATRIAS
-3.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
-4.  Graphs and status of model 
-5.  Log file 
+2.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
+3.  Graphs and status of model 
+4.  Log file 
 
 Graphs: 
 Control, Motor Control graphs on GUI, Temperature 
+
+General Proc of opening GUI model: 
+
+roslaunch atrias_orocos_csim.launch 
+new window
+roslaunch atrias gui.launch 
 
  
