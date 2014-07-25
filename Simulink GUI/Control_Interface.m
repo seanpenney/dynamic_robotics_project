@@ -22,7 +22,7 @@ function varargout = Control_Interface(varargin)
 
 % Edit the above text to modify the response to help Control_Interface
 
-% Last Modified by GUIDE v2.5 23-Jul-2014 17:06:13
+% Last Modified by GUIDE v2.5 24-Jul-2014 16:50:41
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -53,20 +53,17 @@ function Control_Interface_OpeningFcn(hObject, eventdata, handles, varargin)
 % varargin   unrecognized PropertyName/PropertyValue pairs from the
 %            command line (see VARARGIN)
 
-% Choose default command line output for Control_Interface
-handles.output = hObject;
+    % Choose default command line output for Control_Interface
+    handles.output = hObject;
 
-% set and resize images for buttons 
-[x,map]=imread('start_button.png');
-[x2, map] = imread('estop_button.jpg');
-[x3, map] = imread('stop_button.png');
+    % set and resize images for buttons 
+    [x,map]=imread('start_button.png');
+    [x3, map] = imread('stop_button.png');
 
-image_start_resized = imresize(x, [100 150]);
-image_estop_resized = imresize(x2, [100,100]);
-image_stop_resized = imresize(x3, [100,100]);
-set(handles.pushbutton27,'CData',image_start_resized);
-set(handles.pushbutton15,'CData',image_estop_resized);
-set(handles.pushbutton26,'CData',image_stop_resized);
+    image_start_resized = imresize(x, [75 100]);
+    image_stop_resized = imresize(x3, [70,70]);
+    set(handles.pushbutton27,'CData',image_start_resized);
+    set(handles.pushbutton26,'CData',image_stop_resized);
 
 
 % Update handles structure
@@ -92,8 +89,6 @@ function pushbutton15_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton15 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
-
 
 
 % --- Executes on button press in pushbutton25.
@@ -132,19 +127,21 @@ function pushbutton27_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 
 
-% --- Executes on selection change in listbox3.
-function listbox3_Callback(hObject, eventdata, handles)
-% hObject    handle to listbox3 (see GCBO)
+
+
+% --- Executes on selection change in listbox7.
+function listbox7_Callback(hObject, eventdata, handles)
+% hObject    handle to listbox7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: contents = cellstr(get(hObject,'String')) returns listbox3 contents as cell array
-%        contents{get(hObject,'Value')} returns selected item from listbox3
+% Hints: contents = cellstr(get(hObject,'String')) returns listbox7 contents as cell array
+%        contents{get(hObject,'Value')} returns selected item from listbox7
 
 
 % --- Executes during object creation, after setting all properties.
-function listbox3_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to listbox3 (see GCBO)
+function listbox7_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to listbox7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
