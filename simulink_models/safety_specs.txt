@@ -1,0 +1,15 @@
+Safety Sepcifications to Implement in Simulink RT
+
+Safety Overview:
+
+Conditions for an emergency stop:
+  -Invalid current values
+    -Anything non-finite
+  -Motors outside of safe velocity range
+  -If we are in a halt state
+  
+Conditions for a halt:
+  -Leg collisions
+  -Any Medulla is in a halt state
+  
+  
