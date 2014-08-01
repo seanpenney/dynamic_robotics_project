@@ -2,9 +2,6 @@ Safety Specifications to Implement in Simulink RT
 
 Safety Overview:
 
-System level Specifications:
-  -State machine
-
 Conditions for an emergency stop:
   -Invalid current values
     -Anything non-finite
@@ -15,4 +12,6 @@ Conditions for a halt:
   -Leg collisions
   -Any Medulla is in a halt state
   
-  
+Emergency Stop Specifications:
+  currentCheck block:
+    Check that motor current values are finite i.e. not inf or NaN. 
