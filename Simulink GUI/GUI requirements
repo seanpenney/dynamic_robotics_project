@@ -5,17 +5,17 @@ Simulink GUI Specifications:
 3.	Emergency stop button and Simulink config buttons 
 4.	Everything about motor must be on Simulink 
 
-Design notes:
+Features:
 
 1.  Enable, Emergency, start, and stop buttons 
 2.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
 3.  Graphs and status of model 
 4.  Log file 
 
-Graphs: 
+Graphs on the GUI: 
 Control, Motor Control graphs on GUI, Temperature 
 
-General Proc of opening GUI model: 
+How to launch existing GUI:
 
 roslaunch atrias orocos_csim.launch 
 new window
