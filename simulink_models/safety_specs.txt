@@ -4,14 +4,27 @@ Safety Overview:
 
 Conditions for an emergency stop:
   -Invalid current values
-    -Anything non-finite
-  -Motors outside of safe velocity range
-  -If we are in a system halt state
+    -Anything non-finite  
   
 Conditions for a halt:
   -Leg collisions
   -Any Medulla is in a halt state
-  
+  -Temperature exceeds limits  
+
 Emergency Stop Specifications:
   currentCheck block:
     Check that motor current values are finite i.e. not inf or NaN. 
+
+Halt Specifications:
+  checkMedullaHalt block:
+    Check if any Medullas are in halt state
+
+  predictStop block:
+    Use current position and current velocity to predict stopping location
+
+  checkCollision block:
+    Check if motor exceeded limits based on min/max location and safety distance
+    Check if leg length limit has been exceeded
+
+  temperature block:
+    Check if thermistor reading has exceeded 80 celsius
