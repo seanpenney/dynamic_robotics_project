@@ -10,8 +10,8 @@
 % 
 % Final: outputs a struct with parameters model name(s) and its value(s)
 %
+%
 
-%% Function Not Complete
 function block_data = GetData(model)
 
     Model_Initialization_Check(model);
@@ -19,38 +19,28 @@ function block_data = GetData(model)
     % Get all blocks in model 
     BlockPaths = find_system('torquecontrol','Type','Block');
      
-    % if the model is not running, get the initial value and return
+    % if the model is not running, get and return the initial values of the
+    % model 
     
-    z = get_param('model_name','SimulationStatus');
+    model_status = get_param('model_name','SimulationStatus');
     
-    if strcmp(z, 'stopped') == 1
+    if strcmp(model_status, 'stopped') == 1   
         
-        % get block value parameter
-        for idx = 1:numel(BlockPaths)
+        % find blocks that display data on robot status on GUI, so far the
+        % parameter values are dummies and subject to change; TODO
         
-            
-            
-            
-                                   
+        found_block_leg_velocity = find_system(model,'Regexp', 'on', 'BlockDialogParams','leg velocity');
         
-        end
+        
+   
+    else 
+        
+        
     
     end
-    
-    
-    
-    % get all values in the block during run time
-     
-    for idx = 1:numel(BlockPaths)
-        
-        % get values from each of the blocks
-        
-         
-         
-         
-    end
+   
   
-    % return the data as a struct 
+    % return the data 
 
 
 
