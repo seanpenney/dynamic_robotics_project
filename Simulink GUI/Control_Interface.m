@@ -1,29 +1,18 @@
+% function varargout = Control_Interface(varargin)
+% 
+% Description:
+% This is the MATLAB file for Control_Interface.fig. This file governs and
+% describes the behaviors of each figures in the .fig file. 
+%    
+% Fields: none
+% 
+% Initial: none
+% 
+% Final: none
+%
+%
+
 function varargout = Control_Interface(varargin)
-%CONTROL_INTERFACE M-file for Control_Interface.fig
-%      CONTROL_INTERFACE, by itself, creates a new CONTROL_INTERFACE or raises the existing
-%      singleton*.
-%
-%      H = CONTROL_INTERFACE returns the handle to a new CONTROL_INTERFACE or the handle to
-%      the existing singleton*.
-%
-%      CONTROL_INTERFACE('Property','Value',...) creates a new CONTROL_INTERFACE using the
-%      given property value pairs. Unrecognized properties are passed via
-%      varargin to Control_Interface_OpeningFcn.  This calling syntax produces a
-%      warning when there is an existing singleton*.
-%
-%      CONTROL_INTERFACE('CALLBACK') and CONTROL_INTERFACE('CALLBACK',hObject,...) call the
-%      local function named CALLBACK in CONTROL_INTERFACE.M with the given input
-%      arguments.
-%
-%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
-%      instance to run (singleton)".
-%
-% See also: GUIDE, GUIDATA, GUIHANDLES
-
-% Edit the above text to modify the response to help Control_Interface
-
-% Last Modified by GUIDE v2.5 28-Jul-2014 17:01:36
-
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
@@ -122,15 +111,6 @@ function pushbutton27_CreateFcn(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
-% --- Executes on selection change in listbox7.
-function listbox7_Callback(hObject, eventdata, handles)
-% hObject    handle to listbox7 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: contents = cellstr(get(hObject,'String')) returns listbox7 contents as cell array
-%        contents{get(hObject,'Value')} returns selected item from listbox7
-
 
 % --- Executes during object creation, after setting all properties.
 function listbox7_CreateFcn(hObject, eventdata, handles)
@@ -145,15 +125,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-
-function edit2_Callback(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-
-% Hints: get(hObject,'String') returns contents of edit2 as text
-%        str2double(get(hObject,'String')) returns contents of edit2 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -176,7 +147,7 @@ function pushbutton33_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
     
     name = OpenModel;    
-    if isempty(name)
+    if name == ''
        
         return;
         
@@ -185,14 +156,6 @@ function pushbutton33_Callback(hObject, eventdata, handles)
     set(handles.edit2, 'String', name);
 
 
-
-function edit9_Callback(hObject, eventdata, handles)
-% hObject    handle to edit9 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit9 as text
-%        str2double(get(hObject,'String')) returns contents of edit9 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -207,13 +170,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-function edit52_Callback(hObject, eventdata, handles)
-% hObject    handle to edit52 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit52 as text
-%        str2double(get(hObject,'String')) returns contents of edit52 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -228,14 +184,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-function edit54_Callback(hObject, eventdata, handles)
-% hObject    handle to edit54 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit54 as text
-%        str2double(get(hObject,'String')) returns contents of edit54 as a double
-
 
 % --- Executes during object creation, after setting all properties.
 function edit54_CreateFcn(hObject, eventdata, handles)
@@ -249,13 +197,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-function edit140_Callback(hObject, eventdata, handles)
-% hObject    handle to edit140 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit140 as text
-%        str2double(get(hObject,'String')) returns contents of edit140 as a double
 
 % --- Executes during object creation, after setting all properties.
 function edit140_CreateFcn(hObject, eventdata, handles)
@@ -269,15 +210,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit141_Callback(hObject, eventdata, handles)
-% hObject    handle to edit141 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit141 as text
-%        str2double(get(hObject,'String')) returns contents of edit141 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -294,15 +226,6 @@ end
 
 
 
-function edit142_Callback(hObject, eventdata, handles)
-% hObject    handle to edit142 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit142 as text
-%        str2double(get(hObject,'String')) returns contents of edit142 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit142_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit142 (see GCBO)
@@ -315,15 +238,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit134_Callback(hObject, eventdata, handles)
-% hObject    handle to edit134 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit134 as text
-%        str2double(get(hObject,'String')) returns contents of edit134 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -340,15 +254,6 @@ end
 
 
 
-function edit135_Callback(hObject, eventdata, handles)
-% hObject    handle to edit135 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit135 as text
-%        str2double(get(hObject,'String')) returns contents of edit135 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit135_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit135 (see GCBO)
@@ -361,15 +266,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit136_Callback(hObject, eventdata, handles)
-% hObject    handle to edit136 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit136 as text
-%        str2double(get(hObject,'String')) returns contents of edit136 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -386,16 +282,6 @@ end
 
 
 
-
-function edit128_Callback(hObject, eventdata, handles)
-% hObject    handle to edit128 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit128 as text
-%        str2double(get(hObject,'String')) returns contents of edit128 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit128_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit128 (see GCBO)
@@ -409,14 +295,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-
-function edit129_Callback(hObject, eventdata, handles)
-% hObject    handle to edit129 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit129 as text
-%        str2double(get(hObject,'String')) returns contents of edit129 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -433,15 +311,6 @@ end
 
 
 
-function edit130_Callback(hObject, eventdata, handles)
-% hObject    handle to edit130 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit130 as text
-%        str2double(get(hObject,'String')) returns contents of edit130 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit130_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit130 (see GCBO)
@@ -453,15 +322,6 @@ function edit130_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-
-function edit125_Callback(hObject, eventdata, handles)
-% hObject    handle to edit125 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit125 as text
-%        str2double(get(hObject,'String')) returns contents of edit125 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -478,15 +338,6 @@ end
 
 
 
-function edit126_Callback(hObject, eventdata, handles)
-% hObject    handle to edit126 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit126 as text
-%        str2double(get(hObject,'String')) returns contents of edit126 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit126_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit126 (see GCBO)
@@ -498,16 +349,6 @@ function edit126_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-
-
-function edit151_Callback(hObject, eventdata, handles)
-% hObject    handle to edit151 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit151 as text
-%        str2double(get(hObject,'String')) returns contents of edit151 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -522,17 +363,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit152_Callback(hObject, eventdata, handles)
-% hObject    handle to edit152 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit152 as text
-%        str2double(get(hObject,'String')) returns contents of edit152 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit152_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit152 (see GCBO)
@@ -546,14 +376,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-
-function edit153_Callback(hObject, eventdata, handles)
-% hObject    handle to edit153 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit153 as text
-%        str2double(get(hObject,'String')) returns contents of edit153 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -570,15 +392,6 @@ end
 
 
 
-function edit154_Callback(hObject, eventdata, handles)
-% hObject    handle to edit154 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit154 as text
-%        str2double(get(hObject,'String')) returns contents of edit154 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit154_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit154 (see GCBO)
@@ -593,15 +406,6 @@ end
 
 
 
-function edit155_Callback(hObject, eventdata, handles)
-% hObject    handle to edit155 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit155 as text
-%        str2double(get(hObject,'String')) returns contents of edit155 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit155_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit155 (see GCBO)
@@ -613,16 +417,6 @@ function edit155_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-
-
-function edit156_Callback(hObject, eventdata, handles)
-% hObject    handle to edit156 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit156 as text
-%        str2double(get(hObject,'String')) returns contents of edit156 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -639,15 +433,6 @@ end
 
 
 
-function edit148_Callback(hObject, eventdata, handles)
-% hObject    handle to edit148 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit148 as text
-%        str2double(get(hObject,'String')) returns contents of edit148 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit148_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit148 (see GCBO)
@@ -662,15 +447,6 @@ end
 
 
 
-function edit149_Callback(hObject, eventdata, handles)
-% hObject    handle to edit149 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit149 as text
-%        str2double(get(hObject,'String')) returns contents of edit149 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit149_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit149 (see GCBO)
@@ -683,15 +459,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit150_Callback(hObject, eventdata, handles)
-% hObject    handle to edit150 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit150 as text
-%        str2double(get(hObject,'String')) returns contents of edit150 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -720,15 +487,6 @@ end
 
 
 
-function edit210_Callback(hObject, eventdata, handles)
-% hObject    handle to edit210 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit210 as text
-%        str2double(get(hObject,'String')) returns contents of edit210 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit210_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit210 (see GCBO)
@@ -740,15 +498,6 @@ function edit210_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-function edit217_Callback(hObject, eventdata, handles)
-% hObject    handle to edit217 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit217 as text
-%        str2double(get(hObject,'String')) returns contents of edit217 as a double
-
 
 % --- Executes during object creation, after setting all properties.
 function edit217_CreateFcn(hObject, eventdata, handles)
@@ -762,14 +511,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-function edit222_Callback(hObject, eventdata, handles)
-% hObject    handle to edit222 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit222 as text
-%        str2double(get(hObject,'String')) returns contents of edit222 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -786,15 +527,6 @@ end
 
 
 
-function edit223_Callback(hObject, eventdata, handles)
-% hObject    handle to edit223 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit223 as text
-%        str2double(get(hObject,'String')) returns contents of edit223 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit223_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit223 (see GCBO)
@@ -809,15 +541,6 @@ end
 
 
 
-function edit227_Callback(hObject, eventdata, handles)
-% hObject    handle to edit227 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit227 as text
-%        str2double(get(hObject,'String')) returns contents of edit227 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit227_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit227 (see GCBO)
@@ -830,17 +553,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit228_Callback(hObject, eventdata, handles)
-% hObject    handle to edit228 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit228 as text
-%        str2double(get(hObject,'String')) returns contents of edit228 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit228_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit228 (see GCBO)
@@ -852,17 +564,6 @@ function edit228_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-
-
-function edit229_Callback(hObject, eventdata, handles)
-% hObject    handle to edit229 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit229 as text
-%        str2double(get(hObject,'String')) returns contents of edit229 as a double
-
 
 % --- Executes during object creation, after setting all properties.
 function edit229_CreateFcn(hObject, eventdata, handles)
@@ -878,15 +579,6 @@ end
 
 
 
-function edit230_Callback(hObject, eventdata, handles)
-% hObject    handle to edit230 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit230 as text
-%        str2double(get(hObject,'String')) returns contents of edit230 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit230_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit230 (see GCBO)
@@ -898,16 +590,6 @@ function edit230_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-
-
-function edit231_Callback(hObject, eventdata, handles)
-% hObject    handle to edit231 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit231 as text
-%        str2double(get(hObject,'String')) returns contents of edit231 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -924,14 +606,6 @@ end
 
 
 
-function edit232_Callback(hObject, eventdata, handles)
-% hObject    handle to edit232 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit232 as text
-%        str2double(get(hObject,'String')) returns contents of edit232 as a double
-
 
 % --- Executes during object creation, after setting all properties.
 function edit232_CreateFcn(hObject, eventdata, handles)
@@ -946,14 +620,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-
-function edit233_Callback(hObject, eventdata, handles)
-% hObject    handle to edit233 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit233 as text
-%        str2double(get(hObject,'String')) returns contents of edit233 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -970,15 +636,6 @@ end
 
 
 
-function edit234_Callback(hObject, eventdata, handles)
-% hObject    handle to edit234 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit234 as text
-%        str2double(get(hObject,'String')) returns contents of edit234 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit234_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit234 (see GCBO)
@@ -991,15 +648,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit243_Callback(hObject, eventdata, handles)
-% hObject    handle to edit243 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit243 as text
-%        str2double(get(hObject,'String')) returns contents of edit243 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -1016,15 +664,6 @@ end
 
 
 
-function edit244_Callback(hObject, eventdata, handles)
-% hObject    handle to edit244 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit244 as text
-%        str2double(get(hObject,'String')) returns contents of edit244 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit244_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit244 (see GCBO)
@@ -1038,14 +677,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-
-function edit245_Callback(hObject, eventdata, handles)
-% hObject    handle to edit245 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit245 as text
-%        str2double(get(hObject,'String')) returns contents of edit245 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -1062,15 +693,6 @@ end
 
 
 
-function edit246_Callback(hObject, eventdata, handles)
-% hObject    handle to edit246 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit246 as text
-%        str2double(get(hObject,'String')) returns contents of edit246 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit246_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit246 (see GCBO)
@@ -1083,15 +705,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit247_Callback(hObject, eventdata, handles)
-% hObject    handle to edit247 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit247 as text
-%        str2double(get(hObject,'String')) returns contents of edit247 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -1108,15 +721,6 @@ end
 
 
 
-function edit248_Callback(hObject, eventdata, handles)
-% hObject    handle to edit248 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit248 as text
-%        str2double(get(hObject,'String')) returns contents of edit248 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit248_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit248 (see GCBO)
@@ -1129,17 +733,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
-
-function edit249_Callback(hObject, eventdata, handles)
-% hObject    handle to edit249 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit249 as text
-%        str2double(get(hObject,'String')) returns contents of edit249 as a double
-
-
 % --- Executes during object creation, after setting all properties.
 function edit249_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit249 (see GCBO)
@@ -1151,16 +744,6 @@ function edit249_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-
-
-function edit250_Callback(hObject, eventdata, handles)
-% hObject    handle to edit250 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit250 as text
-%        str2double(get(hObject,'String')) returns contents of edit250 as a double
 
 
 % --- Executes during object creation, after setting all properties.
@@ -1176,15 +759,181 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton35.
-function pushbutton35_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton35 (see GCBO)
+% --- Executes during object creation, after setting all properties.
+function edit213_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit213 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
 
 
-% --- Executes on button press in pushbutton36.
-function pushbutton36_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton36 (see GCBO)
+% --- Executes during object creation, after setting all properties.
+function edit214_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit214 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit180_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit180 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit179_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit179 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+function edit178_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit178 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit177_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit177 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit176_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit176 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit175_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit175 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit174_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit174 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit173_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit173 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit172_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit172 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit171_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit171 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes during object creation, after setting all properties.
+function edit170_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit170 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+% --- Executes during object creation, after setting all properties.
+function edit169_CreateFcn(hObject, eventdata, handles)
+% hObject handle to edit169 (see GCBO)
+% eventdata reserved - to be defined in a future version of MATLAB
+% handles empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+% See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+ set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on button press in pushbutton38.
+function pushbutton38_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton38 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+    
+    model_name = LoadModel;
+     set(handles.edit2, 'String', model_name);
+    
