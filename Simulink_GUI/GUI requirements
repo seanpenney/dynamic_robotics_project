@@ -15,6 +15,15 @@ Features:
 Graphs on the GUI: 
 Control, Motor Control graphs on GUI, Temperature 
 
+Simulink Model details for GUI specs:
+
+ In the 'leg' model, safety implemenation is in the 'Safety' subsystem.
+ The Mux that provides input to the scope will have the status for all safety checks.
+ The first input is the result of all safety checks (true if safe to operate).
+ The second input is the result of checking temp, collisions, finite values, and error flags.
+ The second input is true if the 4 above checks all return true.
+ The other inputs are the results of checking temperature, collision, sanity, and eror flags.
+
 How to launch existing GUI:
 
 roslaunch atrias orocos_csim.launch 
