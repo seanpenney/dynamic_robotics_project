@@ -1,16 +1,21 @@
 Simulink GUI Specifications: 
 
-1.	Read Thermistor, model, and leg data on the GUI
-2.	Real-time leg positioning and update leg positioning 
-3.	Emergency stop button and Simulink config buttons 
-4.	Everything about motor must be on Simulink 
-
 Features:
 
 1.  Enable, Emergency, start, and stop buttons 
 2.  Real-Leg motion plot ( Compass Plot? Polar Plot? )
 3.  Graphs and status of model 
 4.  Log file 
+5.  Run / Halt Indicator
+6.  Error Flags / Messages 
+7.  Re-design GUI Interface
+
+Dr. Hurst Initial Response: 
+
+1. Redesign Robot Status Panel
+
+2. Remove Unnecessary graphs 
+
 
 Graphs on the GUI: 
 Control, Motor Control graphs on GUI, Temperature 
