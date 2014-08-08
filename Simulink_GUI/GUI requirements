@@ -18,7 +18,13 @@ Dr. Hurst Initial Response:
 
 
 Graphs on the GUI: 
-Control, Motor Control graphs on GUI, Temperature 
+Control, Motor Control, and Temperature and Thermistor reading.
+
+
+To-Delete features on Robot Status: 
+
+
+
 
 Simulink Model details for GUI specs:
 
