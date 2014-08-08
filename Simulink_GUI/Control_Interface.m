@@ -88,6 +88,7 @@ function pushbutton26_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton26 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+    ButtonActions('Stop');
 
 
 % --- Executes on button press in pushbutton27.
