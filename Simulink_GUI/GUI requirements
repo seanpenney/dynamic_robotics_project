@@ -8,7 +8,7 @@ Features:
 4.  Log file 
 5.  Run / Halt Indicator
 6.  Error Flags / Messages 
-7.  Re-design GUI Interface
+7.  Volts and Current Value Readings
 
 Dr. Hurst Initial Response: 
 
@@ -18,7 +18,13 @@ Dr. Hurst Initial Response:
 
 
 Graphs on the GUI: 
-Control, Motor Control graphs on GUI, Temperature 
+Control, Motor Control, and Temperature and Thermistor reading.
+
+
+To-Delete features on Robot Status: 
+
+
+
 
 Simulink Model details for GUI specs:
 
