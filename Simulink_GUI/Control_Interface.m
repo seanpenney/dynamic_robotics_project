@@ -132,7 +132,7 @@ function pushbutton38_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
     
     model_name = LoadModel;
-     set(handles.edit2, 'String', model_name);
+    set(handles.edit2, 'String', model_name);
     
 
 
@@ -147,3 +147,12 @@ function edit2_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- Executes during object creation, after setting all properties.
+function axes23_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to axes23 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: place code in OpeningFcn to populate axes23
