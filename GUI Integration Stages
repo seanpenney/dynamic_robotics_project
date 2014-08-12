@@ -1,6 +1,9 @@
-Current Stage (Est. Time of Completion: N\A) 
+Current Stage (Est. Time of Completion: N/A) 
 
 Integrating E-Stop, Stop, Go, and Restart
+
+Status (8/11/14) : We got new Simulink Model from Carnegie Mellon, need to integrate GUI with that model. Integration task and 
+time frame still yet to be determined. 
 
 2nd Stage: 
 
