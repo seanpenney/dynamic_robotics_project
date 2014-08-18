@@ -14,31 +14,24 @@
 
 function ButtonActions(button_type)
 
-    load_system('leg.slx'); % load model for performing button actions
-    
-  
     switch button_type
 
         case 'Stop'
 
-            SetBlock('leg/Safety/GUI Stop/Stop');
+           gui_disable_cmd = 1;
 
         case 'EStop'
             
             
+            %TODO
             
-            
-            
-            
-
         case  'Go'
-
-            SetBlock('leg/Safety/Reset');
-
+            
+            gui_enable_cmd = 1;
+      
         case  'Restart'
-
-            SetBlock('');
-
+ 
+            gui_reset_cmd = 1; 
 
         otherwise
 
@@ -46,16 +39,6 @@ function ButtonActions(button_type)
 
 
     end
-
-end
-
-function SetBlock(block_name)
-
-    % Set Block Parameters
-    set_param(block_name, 'Value', num2str(1))
-    pause(0.1);
-    set_param(block_name, 'Value', num2str(0))
-
 
 end
 
