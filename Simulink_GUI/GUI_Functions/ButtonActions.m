@@ -14,11 +14,14 @@
 
 function ButtonActions(button_type)
 
+    
     switch button_type
 
         case 'Stop'
 
-           gui_disable_cmd = 1;
+           assignin('base', 'gui_disable_cmd', 1);
+           
+          
 
         case 'EStop'
             
@@ -27,11 +30,13 @@ function ButtonActions(button_type)
             
         case  'Go'
             
-            gui_enable_cmd = 1;
+             assignin('base', 'gui_enable_cmd', 1);
+           
       
         case  'Restart'
  
-            gui_reset_cmd = 1; 
+             assignin('base', 'gui_reset_cmd', 1);
+           
 
         otherwise
 
