@@ -35,19 +35,19 @@ MEDULLA_ADC_OFFSET_COUNTS = 172;  % Ticks
 MEDULLA_ADC_MAX_VOLTS     = 2.70; % Volts
 
 % Renishaw Absolute 32-bit encoders
-LEG_A_CALIB_LOC = 0.959931088596881; % Radians
-LEG_B_CALIB_LOC = 2.181661564992912; % Radians
+LEG_A_CALIB_LOC = pi + 0.305432619099008; % Radians
+LEG_B_CALIB_LOC = pi - 0.305432619099008; % Radians
 
 % Ticks to radians constants
-BOOM_PITCH_ENCODER_RAD_PER_TICK = 2*pi / (2^17 * 2); % Ticks to rad constant = rad_per_rev / (ticks_per_rev * gear_ratio)
-BOOM_ROLL_ENCODER_RAD_PER_TICK = 2*pi / (2^17 * 7); % Ticks to rad constant = rad_per_rev / (ticks_per_rev * gear_ratio)
+BOOM_PITCH_ENCODER_RAD_PER_TICK = 2*pi / (2^17 * 7); % Ticks to rad constant = rad_per_rev / (ticks_per_rev * gear_ratio)
+BOOM_ROLL_ENCODER_RAD_PER_TICK = -2*pi / (2^17 * 2); % Ticks to rad constant = rad_per_rev / (ticks_per_rev * gear_ratio)
 BOOM_YAW_ENCODER_RAD_PER_TICK = 2*pi / (2^17 * 9.6); % Ticks to rad constant = rad_per_rev / (ticks_per_rev * gear_ratio)
 HIP_INC_ENCODER_RAD_PER_TICK =  2*pi / (2500 * 4 * 57);  % Ticks to rad constant = rad_per_rev / (lines_per_rev * quadrature * gear_ratio)
 HIP_ABS_ENCODER_RAD_PER_TICK = 2*pi / 2^13; % Ticks to rad constant = rad_per_rev / ticks_per_rev              
 
 % Motor parameters
-LEFT_MOTOR_HIP_DIRECTION = 1.0; %The direction for the left hip motor.
-RIGHT_MOTOR_HIP_DIRECTION = -1.0; %The direction for the right hip motor.
+LEFT_MOTOR_HIP_DIRECTION = -1.0; %The direction for the left hip motor.
+RIGHT_MOTOR_HIP_DIRECTION = 1.0; %The direction for the right hip motor.
 MTR_MAX_COUNT = 19900; % The maximum commanded amplifier value. This is the maximum value sent to the Medullas for the amplifier command.
 LEG_MOTOR_CONSTANT = 0.119;
 HIP_MOTOR_CONSTANT = 0.184;
@@ -60,8 +60,8 @@ BOOM_MAX_ENCODER_TICKS = 2^17 - 1; % Max value of the absolute boom encoders (17
 
 % From biped1_variant_defs.h
 % Note: Left and right are swapped for CMU
-RIGHT_HIP_CALIB_VAL = 3056;   %Calibration encoder value in ticks (OSU convention)
-LEFT_HIP_CALIB_VAL = 1121;  %Calibration encoder value in ticks (OSU convention)
+RIGHT_HIP_CALIB_VAL = 7192;   %Calibration encoder value in ticks (OSU convention)
+LEFT_HIP_CALIB_VAL = 1091;  %Calibration encoder value in ticks (OSU convention)
 RIGHT_HIP_CALIB_POS = 0;  %Calibration angle in radians (OSU convention)
 LEFT_HIP_CALIB_POS = 0; %Calibration angle in radians (OSU convention)
 MTR_MAX_CURRENT = 60.0; %Maximum motor current for scaling
@@ -77,37 +77,41 @@ HIP_MTR_MAX_TORQUE = MTR_HIP_MAX_CURRENT*HIP_MOTOR_CONSTANT*HIP_MTR_GEAR_RATIO;
 
 % From leg1_definitions.h (corresponds to CMU right leg)
 %(Note that A=shin and B=thigh for OSU convention)
-LEG1_LEG_A_CALIB_VAL = 356674645; %Calibration encoder value in ticks
-LEG1_LEG_B_CALIB_VAL = 350978061; %Calibration encoder value in ticks
+LEG1_LEG_A_CALIB_VAL = 265322590; %Calibration encoder value in ticks
+LEG1_TRAN_A_CALIB_VAL = 142172760; %Calibration encoder value in ticks
+LEG1_LEG_B_CALIB_VAL = 261290850; %Calibration encoder value in ticks
+LEG1_TRAN_B_CALIB_VAL = 142444320; %Calibration encoder value in ticks
 LEG1_LEG_A_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
-LEG1_LEG_B_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
-LEG1_TRAN_A_CALIB_VAL = 47335239; %Calibration encoder value in ticks
-LEG1_TRAN_B_CALIB_VAL = 55801233; %Calibration encoder value in ticks
 LEG1_TRAN_A_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
+LEG1_LEG_B_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
 LEG1_TRAN_B_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
-LEG1_MOTOR_A_DIRECTION = -1.0; 
-LEG1_MOTOR_B_DIRECTION = 1.0;
+LEG1_MOTOR_A_DIRECTION = 1.0; 
+LEG1_MOTOR_B_DIRECTION = -1.0;
 
 % From leg2_definitions.h (corresponds to CMU left leg)
 %(Note that A=shin and B=thigh for OSU convention)
-LEG2_LEG_A_CALIB_VAL = 82578014; %Calibration encoder value in ticks
-LEG2_LEG_B_CALIB_VAL = 354400959; %Calibration encoder value in ticks
-LEG2_LEG_A_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
-LEG2_LEG_B_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
-LEG2_TRAN_A_CALIB_VAL = 50836926; %Calibration encoder value in ticks
-LEG2_TRAN_B_CALIB_VAL = 54176665; %Calibration encoder value in ticks
+LEG2_LEG_A_CALIB_VAL = 265635200; %Calibration encoder value in ticks
+LEG2_TRAN_A_CALIB_VAL = 142852340; %Calibration encoder value in ticks
+LEG2_LEG_B_CALIB_VAL = 174340930; %Calibration encoder value in ticks
+LEG2_TRAN_B_CALIB_VAL = 142241870; %Calibration encoder value in ticks
+LEG2_LEG_A_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
 LEG2_TRAN_A_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
+LEG2_LEG_B_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
 LEG2_TRAN_B_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
-LEG2_MOTOR_A_DIRECTION = -1.0;
-LEG2_MOTOR_B_DIRECTION = 1.0;
+LEG2_MOTOR_A_DIRECTION = 1.0;
+LEG2_MOTOR_B_DIRECTION = -1.0;
 
 % From measurements at CMU
 BOOM_PITCH_CAL_VALUE_RAD = 0;
 BOOM_PITCH_CAL_VALUE_TICKS  = 45433; % ticks, pitch encoder reading when robot is vertical (64109 when pitch locked)
 BOOM_ROLL_CAL_VALUE_RAD = 0; %Roll angle (in radians) for calibration point
-BOOM_ROLL_CAL_VALUE_TICKS = 15742 + 48373; %Roll encoder value for calibration point
+BOOM_ROLL_CAL_VALUE_TICKS = 43680; %Roll encoder value for calibration point
 BOOM_ROBOT_VERTICAL_OFFSET = 0.3434; % meters, 
 BOOM_HEIGHT = 1.0287; % meters, top of the center of rotation to robot ground level
+
+% Soft limits for motor positions
+MOTOR_POSITION_LIMITS_UPPER = [4.9; 3.8; 2.5];
+MOTOR_POSITION_LIMITS_LOWER = [2.5; 1.4; 0.4];
 
 %% params for DAQ functions
 fcut_smooth = 16*(2*pi); % Hz, low pass filter cutoff frequency for removing encoder dropouts
@@ -120,6 +124,11 @@ lpf_damping = sqrt(2)/2;
 B1_lpf_velocity = -2*exp(-lpf_damping*fcut_velocity*sample_time)*cos(fcut_velocity*sample_time*sqrt(1-lpf_damping^2));
 B2_lpf_velocity = exp(-2*lpf_damping*fcut_velocity*sample_time);
 A_lpf_velocity = 1 + B1_lpf_velocity + B2_lpf_velocity;
+% two pole low-pass filter params for velocity estimation (hip absolute encoders)
+fcut_velocity2 = 10*(2*pi); % Hz, low pass filter cutoff frequency for velocities
+B1_lpf_velocity2 = -2*exp(-lpf_damping*fcut_velocity2*sample_time)*cos(fcut_velocity2*sample_time*sqrt(1-lpf_damping^2));
+B2_lpf_velocity2 = exp(-2*lpf_damping*fcut_velocity2*sample_time);
+A_lpf_velocity2 = 1 + B1_lpf_velocity2 + B2_lpf_velocity2;
 
 % Parameters related to incremental encoder decoding
 INC_ENC_RAD_PER_TICK = 2*pi/14000/LEG_MTR_GEAR_RATIO;
