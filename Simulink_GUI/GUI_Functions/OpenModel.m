@@ -11,21 +11,27 @@
 % Final: None 
 %
 
-function OpenModel()
+function OpenModel(handles)
 
     file_name = uigetfile({'*.*','All Simulink Model Files, *.slx';});
-        
-    [pathstr, name, ext] = fileparts(file_name);
     
-    if ~isempty(file_name) && strcmp(ext, '.slx') == 1
+    if file_name ~= 0
+        
+        [pathstr, name, ext] = fileparts(file_name);
+    
+        if  strcmp(ext, '.slx') == 1
 
-        % open the model 
-        open_system(file_name);
+            % open the model
+            open_system(file_name);
+            load_system(file_name);
+            set(handles.edit2, 'String', file_name);
         
         
-    else
+        else
 
-        errordlg('You selected the wrong file. This GUI only supports Simulink model files with extension .slx. Please try again.');
+            errordlg('You selected the wrong file. This GUI only supports Simulink model files with extension .slx. Please try again.');
+        
+        end
         
     end
 
