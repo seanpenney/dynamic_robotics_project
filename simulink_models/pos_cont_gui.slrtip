@@ -1,0 +1,245 @@
+
+  <Object type="Desktop.Xpc.Designer.InstrumentPanel, Desktop.Xpc.Designer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pos_cont_gui" children="Controls">
+    <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox3" children="Controls">
+      <Object type="MW.Instruments.NumericEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericEntry5" children="Controls">
+        <Property name="BindingSrcPath">/daoffset</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Size">78, 25</Property>
+        <Property name="TextAlign">Left</Property>
+        <Property name="Location">134, 152</Property>
+        <Property name="Name">NumericEntry5</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericEntry4" children="Controls">
+        <Property name="BindingSrcPath">/daamp</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Size">78, 25</Property>
+        <Property name="TextAlign">Left</Property>
+        <Property name="Location">134, 121</Property>
+        <Property name="Name">NumericEntry4</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericEntry3" children="Controls">
+        <Property name="BindingSrcPath">/aoffset</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Size">78, 25</Property>
+        <Property name="TextAlign">Left</Property>
+        <Property name="Location">134, 90</Property>
+        <Property name="Name">NumericEntry3</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericEntry2" children="Controls">
+        <Property name="BindingSrcPath">/aamp</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Size">78, 25</Property>
+        <Property name="TextAlign">Left</Property>
+        <Property name="Location">134, 59</Property>
+        <Property name="Name">NumericEntry2</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericEntry1" children="Controls">
+        <Property name="BindingSrcPath">/w</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Size">78, 25</Property>
+        <Property name="TextAlign">Left</Property>
+        <Property name="Location">134, 28</Property>
+        <Property name="Name">NumericEntry1</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label13" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Difference offset</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 152</Property>
+        <Property name="Name">Label13</Property>
+        <Property name="Size">122, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label12" children="Controls">
+        <Property name="Text">Difference amplitude</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 121</Property>
+        <Property name="Name">Label12</Property>
+        <Property name="Size">122, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label11" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Angle offset</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 90</Property>
+        <Property name="Name">Label11</Property>
+        <Property name="Size">96, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label9" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Angle amplitude</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 59</Property>
+        <Property name="Name">Label9</Property>
+        <Property name="Size">96, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label10" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Angular frequency</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 28</Property>
+        <Property name="Name">Label10</Property>
+        <Property name="Size">122, 23</Property>
+      </Object>
+      <Property name="Text">Trajectory</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
+      <Property name="Location">12, 208</Property>
+      <Property name="Name">GroupBox3</Property>
+      <Property name="Size">218, 186</Property>
+    </Object>
+    <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox2" children="Controls">
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry5" children="Controls">
+        <Property name="BindingSrcPath">/hip_d</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">30</Property>
+        <Property name="Value">10</Property>
+        <Property name="TextAlign">Right</Property>
+        <Property name="Location">108, 72</Property>
+        <Property name="Name">NumericalUpDownEntry5</Property>
+        <Property name="Size">50, 25</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry6" children="Controls">
+        <Property name="BindingSrcPath">/leg_d</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">358</Property>
+        <Property name="Value">40</Property>
+        <Property name="TextAlign">Right</Property>
+        <Property name="Location">108, 41</Property>
+        <Property name="Name">NumericalUpDownEntry6</Property>
+        <Property name="Size">50, 25</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label6" children="Controls">
+        <Property name="TextAlign">MiddleCenter</Property>
+        <Property name="Text">D</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">108, 15</Property>
+        <Property name="Name">Label6</Property>
+        <Property name="Size">50, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label5" children="Controls">
+        <Property name="TextAlign">MiddleCenter</Property>
+        <Property name="Text">P</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">39, 15</Property>
+        <Property name="Name">Label5</Property>
+        <Property name="Size">63, 23</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry3" children="Controls">
+        <Property name="BindingSrcPath">/hip_p</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">4000</Property>
+        <Property name="Value">1500</Property>
+        <Property name="TextAlign">Right</Property>
+        <Property name="Location">39, 72</Property>
+        <Property name="Name">NumericalUpDownEntry3</Property>
+        <Property name="Size">63, 25</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry4" children="Controls">
+        <Property name="BindingSrcPath">/leg_p</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">2000</Property>
+        <Property name="Value">500</Property>
+        <Property name="TextAlign">Right</Property>
+        <Property name="Location">39, 41</Property>
+        <Property name="Name">NumericalUpDownEntry4</Property>
+        <Property name="Size">63, 25</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label3" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Hip</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 72</Property>
+        <Property name="Name">Label3</Property>
+        <Property name="Size">27, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label4" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Leg</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 41</Property>
+        <Property name="Name">Label4</Property>
+        <Property name="Size">27, 23</Property>
+      </Object>
+      <Property name="Text">Gains</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
+      <Property name="Location">12, 100</Property>
+      <Property name="Name">GroupBox2</Property>
+      <Property name="Size">167, 102</Property>
+    </Object>
+    <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox1" children="Controls">
+      <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED1" children="Controls">
+        <Property name="BindingSrcPath">/sat_estops</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Text">Saturation Estops</Property>
+        <Property name="Size">78, 54</Property>
+        <Property name="Location">110, 21</Property>
+        <Property name="Name">SwitchLED1</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry2" children="Controls">
+        <Property name="BindingSrcPath">/hip_sat</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Value">100</Property>
+        <Property name="TextAlign">Right</Property>
+        <Property name="Location">39, 52</Property>
+        <Property name="Name">NumericalUpDownEntry2</Property>
+        <Property name="Size">50, 25</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry1" children="Controls">
+        <Property name="BindingSrcPath">/leg_sat</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">358</Property>
+        <Property name="Value">358</Property>
+        <Property name="TextAlign">Right</Property>
+        <Property name="Location">39, 21</Property>
+        <Property name="Name">NumericalUpDownEntry1</Property>
+        <Property name="Size">50, 25</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label2" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Hip</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 52</Property>
+        <Property name="Name">Label2</Property>
+        <Property name="Size">27, 23</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label1" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Leg</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">6, 21</Property>
+        <Property name="Name">Label1</Property>
+        <Property name="Size">27, 23</Property>
+      </Object>
+      <Property name="Text">Saturations</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
+      <Property name="Location">12, 12</Property>
+      <Property name="Name">GroupBox1</Property>
+      <Property name="Size">197, 82</Property>
+    </Object>
+    <Property name="ClientSize">1680, 1050</Property>
+  </Object>
