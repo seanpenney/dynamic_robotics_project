@@ -42,15 +42,7 @@ function Control_Interface_OpeningFcn(hObject, eventdata, handles, varargin)
 % varargin   unrecognized PropertyName/PropertyValue pairs from the
 %            command line (see VARARGIN)
 
-    % Choose default command line output for Control_Interface
-    handles.output = hObject;
 
-    % set and resize images for buttons
-    [x3, map] = imread('stop_button.png');
-
-    image_stop_resized = imresize(x3, [70,70]);
-    set(handles.pushbutton26,'CData',image_stop_resized);
-    
    
    
 % Update handles structure
@@ -67,8 +59,6 @@ function varargout = Control_Interface_OutputFcn(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% Get default command line output from handles structure
-varargout{1} = handles.output;
 
 
 % --- Executes on button press in pushbutton15.
@@ -149,8 +139,23 @@ function pushbutton33_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-    OpenModel(handles)
-    evalin('base', 'daq_params')
+    error_status = OpenModel(handles);
+    
+    % if there is something wrong, stop program immediately
+    if error_status == 1
+        return
+        
+    end
+        
+    try
+       
+        evalin('base', 'daq_params')
+    
+    catch exception
+        
+        errordlg('Something went wrong. Please place daq_params inside your local work space');
+        
+    end
 
 
 function edit2_Callback(hObject, eventdata, handles)
@@ -160,3 +165,16 @@ function edit2_Callback(hObject, eventdata, handles)
 
 % Hints: get(hObject,'String') returns contents of edit2 as text
 %        str2double(get(hObject,'String')) returns contents of edit2 as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function listbox8_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to listbox8 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: listbox controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
