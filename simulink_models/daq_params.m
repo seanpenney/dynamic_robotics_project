@@ -29,6 +29,7 @@ MEDULLA_STATE_RESET = 6;
 gui_enable_cmd  = 0; % Whether to enable the robot
 gui_disable_cmd = 0; % Whether to disable the robot
 gui_reset_cmd   = 0; % Whether to reset the robot (after a E-Stop)
+gui_estop_cmd   = 0; % Whether to E-Stop the robot
 
 % Low-level Medulla parameters
 MEDULLA_ADC_OFFSET_COUNTS = 172;  % Ticks
@@ -60,7 +61,7 @@ BOOM_MAX_ENCODER_TICKS = 2^17 - 1; % Max value of the absolute boom encoders (17
 
 % From biped1_variant_defs.h
 % Note: Left and right are swapped for CMU
-RIGHT_HIP_CALIB_VAL = 7192;   %Calibration encoder value in ticks (OSU convention)
+RIGHT_HIP_CALIB_VAL = 7192 - 2^13;   %Calibration encoder value in ticks (OSU convention)
 LEFT_HIP_CALIB_VAL = 1091;  %Calibration encoder value in ticks (OSU convention)
 RIGHT_HIP_CALIB_POS = 0;  %Calibration angle in radians (OSU convention)
 LEFT_HIP_CALIB_POS = 0; %Calibration angle in radians (OSU convention)
@@ -105,7 +106,7 @@ LEG2_MOTOR_B_DIRECTION = -1.0;
 BOOM_PITCH_CAL_VALUE_RAD = 0;
 BOOM_PITCH_CAL_VALUE_TICKS  = 45433; % ticks, pitch encoder reading when robot is vertical (64109 when pitch locked)
 BOOM_ROLL_CAL_VALUE_RAD = 0; %Roll angle (in radians) for calibration point
-BOOM_ROLL_CAL_VALUE_TICKS = 43680; %Roll encoder value for calibration point
+BOOM_ROLL_CAL_VALUE_TICKS = 43847; %Roll encoder value for calibration point
 BOOM_ROBOT_VERTICAL_OFFSET = 0.3434; % meters, 
 BOOM_HEIGHT = 1.0287; % meters, top of the center of rotation to robot ground level
 
@@ -124,11 +125,6 @@ lpf_damping = sqrt(2)/2;
 B1_lpf_velocity = -2*exp(-lpf_damping*fcut_velocity*sample_time)*cos(fcut_velocity*sample_time*sqrt(1-lpf_damping^2));
 B2_lpf_velocity = exp(-2*lpf_damping*fcut_velocity*sample_time);
 A_lpf_velocity = 1 + B1_lpf_velocity + B2_lpf_velocity;
-% two pole low-pass filter params for velocity estimation (hip absolute encoders)
-fcut_velocity2 = 10*(2*pi); % Hz, low pass filter cutoff frequency for velocities
-B1_lpf_velocity2 = -2*exp(-lpf_damping*fcut_velocity2*sample_time)*cos(fcut_velocity2*sample_time*sqrt(1-lpf_damping^2));
-B2_lpf_velocity2 = exp(-2*lpf_damping*fcut_velocity2*sample_time);
-A_lpf_velocity2 = 1 + B1_lpf_velocity2 + B2_lpf_velocity2;
 
 % Parameters related to incremental encoder decoding
 INC_ENC_RAD_PER_TICK = 2*pi/14000/LEG_MTR_GEAR_RATIO;

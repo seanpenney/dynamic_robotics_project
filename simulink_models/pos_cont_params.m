@@ -1,7 +1,7 @@
 % This contains parameters for the position controller
 
 % Hip and leg saturation parameters
-hip_sat = 60;
+hip_sat = 120;
 leg_sat = 120;
 
 % Gains
@@ -14,7 +14,7 @@ hip_d = 10;
 sat_estops = false;
 
 w = 1;
-aamp = 0.4;
+aamp = 0.;
 aoffset = pi;
-daamp = 0.3;
+daamp = 0.;
 daoffset = 0.6;
