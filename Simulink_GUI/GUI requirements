@@ -41,7 +41,4 @@ roslaunch atrias orocos_csim.launch
 new window
 roslaunch atrias gui.launch 
 
-Updated 8/22/14
-
-Get access to tg via getsignal(tg, 'atrias_system/whatever')
-Make leg GUI working 
+ 
