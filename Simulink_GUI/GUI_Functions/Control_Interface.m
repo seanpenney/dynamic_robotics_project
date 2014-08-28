@@ -32,7 +32,6 @@ else
 end
 % End initialization code - DO NOT EDIT
 
-
 % --- Executes just before Control_Interface is made visible.
 function Control_Interface_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
@@ -45,8 +44,9 @@ function Control_Interface_OpeningFcn(hObject, eventdata, handles, varargin)
 % Create ATRIAS visualization object
 handles.atriasmodel = AtriasModel(handles.axes28);
 handles.animationtimer = timer('ExecutionMode', 'fixedRate', ...
-    'Period', .2, 'TimerFcn', @(~,~)updateAtriasModel(handles.atriasmodel));
-start(handles.animationtimer);
+    'Period', .2, 'TimerFcn', @(~,~)UpdateAtriasModel(handles.atriasmodel));
+ start(handles.animationtimer);
+
 
 % Update handles structure
 guidata(hObject, handles);
@@ -54,7 +54,7 @@ guidata(hObject, handles);
 % UIWAIT makes Control_Interface wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
-function updateAtriasModel(atriasmodel)
+function UpdateAtriasModel(atriasmodel)
 
 q = zeros(13, 1);
 if evalin('base', 'exist(''tg'', ''var'')')
@@ -62,8 +62,8 @@ if evalin('base', 'exist(''tg'', ''var'')')
         q(i) = evalin('base', sprintf('getsignal(tg, ''atrias_system/DAQ/q_signals/s%d'')', i));
     end
 end
-atriasmodel.draw(q);
 
+atriasmodel.draw(q);
 
 % --- Outputs from this function are returned to the command line.
 function varargout = Control_Interface_OutputFcn(hObject, eventdata, handles)
@@ -71,9 +71,6 @@ function varargout = Control_Interface_OutputFcn(hObject, eventdata, handles)
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
-
-
 
 % --- Executes on button press in pushbutton15.
 function pushbutton15_Callback(hObject, eventdata, handles)
@@ -157,13 +154,13 @@ error_status = OpenModel(handles);
 
 % if there is something wrong, stop program immediately
 if error_status == 1
-    return
-    
+    return   
 end
 
 try
-    
-    evalin('base', 'daq_params')
+    evalin('base', 'daq_params_osu')
+    evalin('base', 'pos_cont_params')
+    tg.sampletime = (1e-3)*(1-0.0018)
     
 catch exception
     
