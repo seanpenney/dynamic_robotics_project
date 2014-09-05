@@ -1,0 +1,7 @@
+Meeting Minutes for 8/28/14
+Participants: Sean Penney, Daniel Lin
+Location: DRL
+Goals:
+-Investigate issue with Medulla firmware and try to prevent it from crashing when ethercat stops updating
+What did we accomplish:
+-Found medulla device id x128a1, useful for flashing firmware later
