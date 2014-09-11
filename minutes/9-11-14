@@ -1,0 +1,10 @@
+Need these pdos for torque control model:
+
+status word
+mode of operation display
+position actual value
+torque actual value
+
+target torque
+control word
+mode of operation
