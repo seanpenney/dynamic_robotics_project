@@ -1,3 +1,13 @@
+
+Meeting Minutes for 9/11/14
+Participants: Sean Penney, Daniel Lin, John Cargill
+Location: DRL
+Goals:
+-Get Elmo drive running with benchtop motor through Simulink software
+What did we accomplish:
+-Elmo works with EAS, position not displaying in simulink though.
+
+Note:
 Need these pdos for torque control model:
 
 status word
