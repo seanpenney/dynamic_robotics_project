@@ -1,0 +1,9 @@
+Meeting Minutes for 9/12/14
+Participants: Sean Penney, Daniel Lin, John Cargill
+Location: DRL
+
+Goals:
+-Get Elmo drive running with benchtop motor through Simulink software
+
+What did we accomplish:
+-Elmo works with simulink and benchtop motor using model that has drive state transition.  Need to add Medulla so that we can get thermistor data.
