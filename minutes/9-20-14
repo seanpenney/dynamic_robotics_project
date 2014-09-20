@@ -1,0 +1,41 @@
+Meeting Minutes for 9/20/14
+Participants: Sean Penney
+Location: DRL
+Goals:
+-Get 2nd Elmo drive working with benchtop leg
+
+Notes from past few days:
+Correct PDO addresses for Elmo in TwinCAT are:
+0x1602
+0x1600B
+Offset of 1504 for elmo target torque is incorrect.
+
+Elmo drives will have Halls and incremental encoders.
+
+Need to disable EOE for each device+box in TwinCAT
+
+Disable FOE for elmo.
+
+Using Elmo, the working status word is 1591, mode of operation is 4, and control word is 5.
+
+
+For the Port A wire:
+5 pin (for Hall):
+brown: 13
+green: 1
+yellow: 10
+orange: 2
+red: 2,12
+
+8 pin (incremental encoder):
+brown: 4
+orange: 6
+white/orange: 5
+blue: 15
+white/blue: 14
+green: 8
+white/green: 7
+white/brown: 3
+
+What did we accomplish:
+-
