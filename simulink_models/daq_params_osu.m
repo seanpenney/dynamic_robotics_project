@@ -81,7 +81,7 @@ LEG1_TRAN_A_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
 LEG1_LEG_B_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
 LEG1_TRAN_B_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
 LEG1_MOTOR_A_DIRECTION = 1.0; 
-LEG1_MOTOR_B_DIRECTION = -1.0;
+LEG1_MOTOR_B_DIRECTION = 1.0;
 
 LEG2_LEG_A_CALIB_VAL = 265635200; %Calibration encoder value in ticks
 LEG2_TRAN_A_CALIB_VAL = 142852340; %Calibration encoder value in ticks
@@ -91,7 +91,7 @@ LEG2_LEG_A_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
 LEG2_TRAN_A_RAD_PER_CNT = 9.8039216e-09; %Ticks to rad constant
 LEG2_LEG_B_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
 LEG2_TRAN_B_RAD_PER_CNT = -9.8039216e-09; %Ticks to rad constant
-LEG2_MOTOR_A_DIRECTION = 1.0;
+LEG2_MOTOR_A_DIRECTION = -1.0;
 LEG2_MOTOR_B_DIRECTION = -1.0;
 
 BOOM_PITCH_CAL_VALUE_RAD = 0;
