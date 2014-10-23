@@ -3,12 +3,19 @@ Dynamic Robotics Project
 
 ###Description:
 
-We will be using Simulink Real-Time to help the Dynamic Robotics Lab on interfacing their custom boards with MATLAB software interfaces such as GUIDE. We will also be using EtherCat and CAN Protocols. 
+The goal of this project is to replace the software system for ATRIAS with MATLAB and Simulink Realtime.
+The ATRIAS is a walking, running, and jumping bipedal robot created in the Dynamic Robotics Lab at Oregon State University.
 
-Project Website: https://sites.google.com/a/onid.oregonstate.edu/dynamic-robotics-lab---xpc-resources/
+EtherCAT is the communication protocol we will use for the system, in order to interface with our custom Medulla microcontrollers and Elmo amplifiers.
 
-Ethercat documentation:
-https://code.google.com/p/medulla/source/browse/trunk/hardware/medulla.0/Datasheets/EtherCAT_ET1100_Datasheet_all_v1i6.pdf
+Official documentation can be found at:
+https://sites.google.com/site/atrias21/
+
+The medulla repository is located at:
+https://code.google.com/p/medulla/source/browse/
+
+The atrias repository (which has the old software system and medulla firmware) is located at:
+https://code.google.com/p/atrias/source/browse/
 
 ###Collaborators
 Sean Penney
