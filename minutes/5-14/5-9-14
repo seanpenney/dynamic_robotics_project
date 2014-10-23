@@ -1,0 +1,18 @@
+Meeting Minutes for 5/9/14
+
+Participants: Sean Penney, John Cargill, Daniel Lin
+
+Location: Robotics LAb
+
+To do list:
+1. Get xPC target on computer
+2. Play around with simulink
+3. GUI
+4. Communicate with EtherCAT
+	- Multiple medullas
+	- diff in EtherCAT config
+
+
+What did we accomplish: Went through MATLAB tutorials, read about simulink and xPC target.  
+
+Future Improvements: Continue matlab tutorials, gather necessary materials, familiarize ourselves with simulink and xPC target.
