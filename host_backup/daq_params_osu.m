@@ -96,7 +96,7 @@ LEG2_MOTOR_A_DIRECTION = 1.0;
 LEG2_MOTOR_B_DIRECTION = 1.0;
 
 BOOM_PITCH_CAL_VALUE_RAD = 0;
-BOOM_PITCH_CAL_VALUE_TICKS  = 43809; % ticks, pitch encoder reading when robot is vertical
+BOOM_PITCH_CAL_VALUE_TICKS  = 43983; % ticks, pitch encoder reading when robot is vertical
 BOOM_ROLL_CAL_VALUE_RAD = 0.1271; %Roll angle (in radians) for calibration point
 BOOM_ROLL_CAL_VALUE_TICKS = 9318; %Roll encoder value for calibration point
 BOOM_ROBOT_VERTICAL_OFFSET = 0.3434; % meters, 

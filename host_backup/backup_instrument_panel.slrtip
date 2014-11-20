@@ -1,265 +1,5 @@
 
   <Object type="Desktop.Xpc.Designer.InstrumentPanel, Desktop.Xpc.Designer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InstrumentPanel" children="Controls">
-    <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox15" children="Controls">
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label127" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Right Diff</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
-        <Property name="Location">40, 167</Property>
-        <Property name="Name">Label127</Property>
-        <Property name="Size">55, 24</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label124" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Left Diff</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
-        <Property name="Location">40, 92</Property>
-        <Property name="Name">Label124</Property>
-        <Property name="Size">51, 24</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label126" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Right B</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
-        <Property name="Location">40, 143</Property>
-        <Property name="Name">Label126</Property>
-        <Property name="Size">51, 24</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label123" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Left B</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
-        <Property name="Location">40, 71</Property>
-        <Property name="Name">Label123</Property>
-        <Property name="Size">39, 24</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label125" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Right A</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
-        <Property name="Location">40, 119</Property>
-        <Property name="Name">Label125</Property>
-        <Property name="Size">51, 24</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label122" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Left A</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
-        <Property name="Location">40, 47</Property>
-        <Property name="Name">Label122</Property>
-        <Property name="Size">39, 24</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay193" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s5</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">136, 143</Property>
-        <Property name="Name">NumericDisplay193</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay185" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s11</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">136, 68</Property>
-        <Property name="Name">NumericDisplay185</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay192" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s2</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">101, 143</Property>
-        <Property name="Name">NumericDisplay192</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay183" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s8</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">101, 68</Property>
-        <Property name="Name">NumericDisplay183</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label121" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Lower Limit</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">132, 17</Property>
-        <Property name="Name">Label121</Property>
-        <Property name="Size">36, 24</Property>
-      </Object>
-      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label120" children="Controls">
-        <Property name="TextAlign">MiddleLeft</Property>
-        <Property name="Text">Upper Limit</Property>
-        <Property name="UseCompatibleTextRendering">True</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">95, 17</Property>
-        <Property name="Name">Label120</Property>
-        <Property name="Size">35, 24</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay191" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s4</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">136, 119</Property>
-        <Property name="Name">NumericDisplay191</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay184" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s10</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">136, 44</Property>
-        <Property name="Name">NumericDisplay184</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay190" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s6</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">136, 167</Property>
-        <Property name="Name">NumericDisplay190</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay187" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s12</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">136, 92</Property>
-        <Property name="Name">NumericDisplay187</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay189" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s3</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">101, 167</Property>
-        <Property name="Name">NumericDisplay189</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay186" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s9</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">101, 92</Property>
-        <Property name="Name">NumericDisplay186</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay188" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s1</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">101, 119</Property>
-        <Property name="Name">NumericDisplay188</Property>
-      </Object>
-      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay182" children="Controls">
-        <Property name="BindingSrcType">Signal</Property>
-        <Property name="OutputValue">0</Property>
-        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14/s7</Property>
-        <Property name="BindingSrcObject" />
-        <Property name="TargetName">TargetPC1</Property>
-        <Property name="TextFormatting">
-          <Property name="Precision">0</Property>
-          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
-        </Property>
-        <Property name="Size">24, 24</Property>
-        <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">101, 44</Property>
-        <Property name="Name">NumericDisplay182</Property>
-      </Object>
-      <Property name="Text">Software Limits</Property>
-      <Property name="UseCompatibleTextRendering">True</Property>
-      <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">822, 487</Property>
-      <Property name="Name">GroupBox15</Property>
-      <Property name="Size">205, 196</Property>
-    </Object>
     <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox14" children="Controls">
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay155" children="Controls">
         <Property name="BindingSrcType">Signal</Property>
@@ -273,7 +13,7 @@
         </Property>
         <Property name="Size">72, 24</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">515, 80</Property>
+        <Property name="Location">144, 240</Property>
         <Property name="Name">NumericDisplay155</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay156" children="Controls">
@@ -288,7 +28,7 @@
         </Property>
         <Property name="Size">72, 24</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">515, 56</Property>
+        <Property name="Location">144, 216</Property>
         <Property name="Name">NumericDisplay156</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay157" children="Controls">
@@ -303,7 +43,7 @@
         </Property>
         <Property name="Size">72, 24</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">515, 104</Property>
+        <Property name="Location">144, 264</Property>
         <Property name="Name">NumericDisplay157</Property>
       </Object>
       <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label104" children="Controls">
@@ -312,7 +52,7 @@
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
         <Property name="ForeColor">Black</Property>
-        <Property name="Location">515, 34</Property>
+        <Property name="Location">144, 194</Property>
         <Property name="Name">Label104</Property>
         <Property name="Size">85, 19</Property>
       </Object>
@@ -322,9 +62,9 @@
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
         <Property name="ForeColor">Black</Property>
-        <Property name="Location">399, 57</Property>
+        <Property name="Location">6, 216</Property>
         <Property name="Name">Label105</Property>
-        <Property name="Size">33, 23</Property>
+        <Property name="Size">54, 24</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay158" children="Controls">
         <Property name="BindingSrcType">Signal</Property>
@@ -338,7 +78,7 @@
         </Property>
         <Property name="Size">72, 24</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">438, 80</Property>
+        <Property name="Location">67, 240</Property>
         <Property name="Name">NumericDisplay158</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay159" children="Controls">
@@ -353,7 +93,7 @@
         </Property>
         <Property name="Size">72, 24</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">438, 56</Property>
+        <Property name="Location">67, 216</Property>
         <Property name="Name">NumericDisplay159</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay160" children="Controls">
@@ -368,7 +108,7 @@
         </Property>
         <Property name="Size">72, 24</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">438, 104</Property>
+        <Property name="Location">67, 264</Property>
         <Property name="Name">NumericDisplay160</Property>
       </Object>
       <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label106" children="Controls">
@@ -377,7 +117,7 @@
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
         <Property name="ForeColor">Black</Property>
-        <Property name="Location">432, 34</Property>
+        <Property name="Location">61, 194</Property>
         <Property name="Name">Label106</Property>
         <Property name="Size">77, 19</Property>
       </Object>
@@ -387,9 +127,9 @@
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
         <Property name="ForeColor">Black</Property>
-        <Property name="Location">399, 81</Property>
+        <Property name="Location">6, 240</Property>
         <Property name="Name">Label107</Property>
-        <Property name="Size">32, 23</Property>
+        <Property name="Size">53, 24</Property>
       </Object>
       <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label108" children="Controls">
         <Property name="TextAlign">MiddleLeft</Property>
@@ -397,9 +137,9 @@
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
         <Property name="ForeColor">Black</Property>
-        <Property name="Location">399, 105</Property>
+        <Property name="Location">6, 264</Property>
         <Property name="Name">Label108</Property>
-        <Property name="Size">33, 23</Property>
+        <Property name="Size">54, 24</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay161" children="Controls">
         <Property name="BindingSrcType">Signal</Property>
@@ -814,9 +554,9 @@
       <Property name="Text">Robot State</Property>
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">219, 3</Property>
+      <Property name="Location">556, 595</Property>
       <Property name="Name">GroupBox14</Property>
-      <Property name="Size">603, 187</Property>
+      <Property name="Size">409, 295</Property>
     </Object>
     <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox11" children="Controls">
       <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox12" children="Controls">
@@ -1039,9 +779,55 @@
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="BackColor">Control</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">1034, 350</Property>
+      <Property name="Location">961, 10</Property>
       <Property name="Name">GroupBox11</Property>
       <Property name="Size">210, 312</Property>
+    </Object>
+    <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox10" children="Controls">
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry2" children="Controls">
+        <Property name="BindingSrcPath">/safety_start_max_vel</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">30</Property>
+        <Property name="Location">131, 52</Property>
+        <Property name="Name">NumericalUpDownEntry2</Property>
+        <Property name="Size">120, 25</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericalUpDownEntry, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericalUpDownEntry1" children="Controls">
+        <Property name="BindingSrcPath">/safety_max_vel</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="BindingSrcType">Parameter</Property>
+        <Property name="Maximum">30</Property>
+        <Property name="Location">131, 20</Property>
+        <Property name="Name">NumericalUpDownEntry1</Property>
+        <Property name="Size">120, 25</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label92" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Max. Starting Speed:</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">5, 52</Property>
+        <Property name="Name">Label92</Property>
+        <Property name="Size">118, 24</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label91" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Max. Motor Speed:</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">5, 23</Property>
+        <Property name="Name">Label91</Property>
+        <Property name="Size">118, 24</Property>
+      </Object>
+      <Property name="Text">Limits</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
+      <Property name="Location">2, 550</Property>
+      <Property name="Name">GroupBox10</Property>
+      <Property name="Size">258, 86</Property>
     </Object>
     <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox9" children="Controls">
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay140" children="Controls">
@@ -1293,11 +1079,83 @@
       <Property name="Text">Controller Commands</Property>
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">2, 196</Property>
+      <Property name="Location">556, 263</Property>
       <Property name="Name">GroupBox9</Property>
       <Property name="Size">399, 326</Property>
     </Object>
     <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox1" children="Controls">
+      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay181" children="Controls">
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcPath">atrias_system/Demux Diags/p14</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="TextFormatting">
+          <Property name="Precision">0</Property>
+          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
+        </Property>
+        <Property name="Size">24, 24</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">174, 92</Property>
+        <Property name="Name">NumericDisplay181</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label119" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Soft Limits:</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">79, 92</Property>
+        <Property name="Name">Label119</Property>
+        <Property name="Size">90, 24</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay152" children="Controls">
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcPath">atrias_system/Demux Diags/p16</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="TextFormatting">
+          <Property name="Precision">0</Property>
+          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
+        </Property>
+        <Property name="Size">24, 24</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">174, 57</Property>
+        <Property name="Name">NumericDisplay152</Property>
+      </Object>
+      <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay151" children="Controls">
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcPath">atrias_system/Demux Diags/p15</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="TextFormatting">
+          <Property name="Precision">0</Property>
+          <Property name="PrecisionStyle">FixedDecimalPoints</Property>
+        </Property>
+        <Property name="Size">24, 24</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">47, 56</Property>
+        <Property name="Name">NumericDisplay151</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label90" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Startup speed limit:</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">79, 56</Property>
+        <Property name="Name">Label90</Property>
+        <Property name="Size">90, 24</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label89" children="Controls">
+        <Property name="TextAlign">MiddleLeft</Property>
+        <Property name="Text">Speed limit:</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="Location">5, 56</Property>
+        <Property name="Name">Label89</Property>
+        <Property name="Size">44, 24</Property>
+      </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay142" children="Controls">
         <Property name="BindingSrcType">Signal</Property>
         <Property name="OutputValue">0</Property>
@@ -1346,12 +1204,12 @@
         <Property name="Name">Label78</Property>
         <Property name="Size">34, 24</Property>
       </Object>
-      <Property name="Text">Safety Diagnostics</Property>
+      <Property name="Text">Safety Diagnostics:</Property>
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">414, 447</Property>
+      <Property name="Location">3, 642</Property>
       <Property name="Name">GroupBox1</Property>
-      <Property name="Size">205, 51</Property>
+      <Property name="Size">205, 129</Property>
     </Object>
     <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox2" children="Controls">
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay143" children="Controls">
@@ -1475,12 +1333,12 @@
         <Property name="Name">NumericDisplay150</Property>
       </Object>
       <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label88" children="Controls">
-        <Property name="Text">Unused</Property>
+        <Property name="Text">IMU</Property>
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">365, 17</Property>
+        <Property name="Location">370, 31</Property>
         <Property name="Name">Label88</Property>
-        <Property name="Size">29, 28</Property>
+        <Property name="Size">24, 18</Property>
       </Object>
       <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay93" children="Controls">
         <Property name="BindingSrcType">Signal</Property>
@@ -2406,7 +2264,7 @@
         <Property name="Text">Boom</Property>
         <Property name="UseCompatibleTextRendering">True</Property>
         <Property name="Font">Segoe UI, 8pt</Property>
-        <Property name="Location">326, 17</Property>
+        <Property name="Location">331, 31</Property>
         <Property name="Name">Label71</Property>
         <Property name="Size">33, 18</Property>
       </Object>
@@ -2462,7 +2320,7 @@
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="BackColor">Control</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">407, 196</Property>
+      <Property name="Location">556, 10</Property>
       <Property name="Name">GroupBox2</Property>
       <Property name="Size">399, 247</Property>
     </Object>
@@ -3143,7 +3001,7 @@
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="BackColor">Control</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">822, 3</Property>
+      <Property name="Location">345, 304</Property>
       <Property name="Name">GroupBox3</Property>
       <Property name="Size">205, 481</Property>
     </Object>
@@ -3467,7 +3325,7 @@
       <Property name="Text">Voltages</Property>
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">1033, 3</Property>
+      <Property name="Location">2, 414</Property>
       <Property name="Name">GroupBox4</Property>
       <Property name="Size">337, 131</Property>
     </Object>
@@ -3973,7 +3831,7 @@
       <Property name="Text">Temperatures</Property>
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">1033, 140</Property>
+      <Property name="Location">2, 204</Property>
       <Property name="Name">GroupBox5</Property>
       <Property name="Size">337, 204</Property>
     </Object>
@@ -3984,8 +3842,8 @@
         <Property name="BindingSrcType">Signal</Property>
         <Property name="BindingSrcPath">atrias_system/Start Controller/is_start_done_cmp</Property>
         <Property name="TargetName">TargetPC1</Property>
-        <Property name="Size">31, 26</Property>
-        <Property name="Location">6, 66</Property>
+        <Property name="Size">50, 50</Property>
+        <Property name="Location">6, 92</Property>
         <Property name="Name">LED64</Property>
       </Object>
       <Object type="MW.Instruments.GaugeFluidLevel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GaugeFluidLevel4" children="Controls">
@@ -4004,8 +3862,8 @@
           <Property name="Visible">False</Property>
         </Property>
         <Property name="Rotation">X270</Property>
-        <Property name="Size">195, 20</Property>
-        <Property name="Location">6, 122</Property>
+        <Property name="Size">195, 50</Property>
+        <Property name="Location">6, 194</Property>
         <Property name="Name">GaugeFluidLevel4</Property>
       </Object>
       <Object type="MW.Instruments.GaugeFluidLevel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GaugeFluidLevel3" children="Controls">
@@ -4024,8 +3882,8 @@
           <Property name="Visible">False</Property>
         </Property>
         <Property name="Rotation">X270</Property>
-        <Property name="Size">195, 20</Property>
-        <Property name="Location">6, 94</Property>
+        <Property name="Size">195, 50</Property>
+        <Property name="Location">6, 143</Property>
         <Property name="Name">GaugeFluidLevel3</Property>
       </Object>
       <Object type="MW.Instruments.GaugeFluidLevel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GaugeFluidLevel2" children="Controls">
@@ -4044,8 +3902,8 @@
           <Property name="Visible">False</Property>
         </Property>
         <Property name="Rotation">X270</Property>
-        <Property name="Size">145, 20</Property>
-        <Property name="Location">56, 67</Property>
+        <Property name="Size">145, 50</Property>
+        <Property name="Location">56, 92</Property>
         <Property name="Name">GaugeFluidLevel2</Property>
       </Object>
       <Object type="MW.Instruments.GaugeFluidLevel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GaugeFluidLevel1" children="Controls">
@@ -4064,7 +3922,7 @@
           <Property name="Visible">False</Property>
         </Property>
         <Property name="Rotation">X270</Property>
-        <Property name="Size">195, 20</Property>
+        <Property name="Size">195, 50</Property>
         <Property name="Location">6, 41</Property>
         <Property name="Name">GaugeFluidLevel1</Property>
       </Object>
@@ -4084,7 +3942,7 @@
         <Property name="MomentaryStyle">Simple</Property>
         <Property name="Size">62, 34</Property>
         <Property name="Font">Segoe UI, 9pt</Property>
-        <Property name="Location">139, 148</Property>
+        <Property name="Location">139, 248</Property>
         <Property name="Name">SwitchLED3</Property>
       </Object>
       <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED1" children="Controls">
@@ -4095,7 +3953,7 @@
         <Property name="MomentaryStyle">Simple</Property>
         <Property name="Size">62, 34</Property>
         <Property name="Font">Segoe UI, 9pt</Property>
-        <Property name="Location">3, 148</Property>
+        <Property name="Location">3, 248</Property>
         <Property name="Name">SwitchLED1</Property>
       </Object>
       <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED2" children="Controls">
@@ -4106,15 +3964,712 @@
         <Property name="MomentaryStyle">Simple</Property>
         <Property name="Size">62, 34</Property>
         <Property name="Font">Segoe UI, 9pt</Property>
-        <Property name="Location">71, 148</Property>
+        <Property name="Location">71, 248</Property>
         <Property name="Name">SwitchLED2</Property>
       </Object>
       <Property name="Text">System Command</Property>
       <Property name="UseCompatibleTextRendering">True</Property>
       <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
-      <Property name="Location">2, 2</Property>
+      <Property name="Location">345, 10</Property>
       <Property name="Name">GroupBox8</Property>
-      <Property name="Size">211, 188</Property>
+      <Property name="Size">205, 288</Property>
+    </Object>
+    <Object type="System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GroupBox6" children="Controls">
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label14" children="Controls">
+        <Property name="Text">Amplifier</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 167</Property>
+        <Property name="Name">Label14</Property>
+        <Property name="Size">83, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED57" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s56</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 167</Property>
+        <Property name="Name">LED57</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label7" children="Controls">
+        <Property name="Text">E Stop</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 55</Property>
+        <Property name="Name">Label7</Property>
+        <Property name="Size">81, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED58" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s55</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 167</Property>
+        <Property name="Name">LED58</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label8" children="Controls">
+        <Property name="Text">Limit Switch</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 71</Property>
+        <Property name="Name">Label8</Property>
+        <Property name="Size">81, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED59" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s54</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 167</Property>
+        <Property name="Name">LED59</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED60" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s53</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 167</Property>
+        <Property name="Name">LED60</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label13" children="Controls">
+        <Property name="Text">Halt</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 151</Property>
+        <Property name="Name">Label13</Property>
+        <Property name="Size">82, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED61" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s52</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 167</Property>
+        <Property name="Name">LED61</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED62" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s51</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 167</Property>
+        <Property name="Name">LED62</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label9" children="Controls">
+        <Property name="Text">Thermistor</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 87</Property>
+        <Property name="Name">Label9</Property>
+        <Property name="Size">81, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED63" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s50</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 167</Property>
+        <Property name="Name">LED63</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED50" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s49</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 151</Property>
+        <Property name="Name">LED50</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label12" children="Controls">
+        <Property name="Text">Encoder</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 135</Property>
+        <Property name="Name">Label12</Property>
+        <Property name="Size">81, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED51" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s48</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 151</Property>
+        <Property name="Name">LED51</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED52" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s47</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 151</Property>
+        <Property name="Name">LED52</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label10" children="Controls">
+        <Property name="Text">Motor Voltage</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 103</Property>
+        <Property name="Name">Label10</Property>
+        <Property name="Size">81, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED53" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s46</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 151</Property>
+        <Property name="Name">LED53</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED54" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s45</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 151</Property>
+        <Property name="Name">LED54</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label11" children="Controls">
+        <Property name="Text">Logic Voltage</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt, style=Bold</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">6, 119</Property>
+        <Property name="Name">Label11</Property>
+        <Property name="Size">81, 16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED55" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s44</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 151</Property>
+        <Property name="Name">LED55</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED56" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s43</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 151</Property>
+        <Property name="Name">LED56</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED43" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s42</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 135</Property>
+        <Property name="Name">LED43</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED44" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s41</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 135</Property>
+        <Property name="Name">LED44</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED45" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s40</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 135</Property>
+        <Property name="Name">LED45</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED46" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s39</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 135</Property>
+        <Property name="Name">LED46</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED47" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s38</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 135</Property>
+        <Property name="Name">LED47</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED48" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s37</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 135</Property>
+        <Property name="Name">LED48</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED49" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s36</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 135</Property>
+        <Property name="Name">LED49</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED36" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s35</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 119</Property>
+        <Property name="Name">LED36</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED37" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s34</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 119</Property>
+        <Property name="Name">LED37</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED38" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s33</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 119</Property>
+        <Property name="Name">LED38</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED39" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s32</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 119</Property>
+        <Property name="Name">LED39</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED40" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s31</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 119</Property>
+        <Property name="Name">LED40</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED41" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s30</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 119</Property>
+        <Property name="Name">LED41</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED42" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s29</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 119</Property>
+        <Property name="Name">LED42</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED29" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s28</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 103</Property>
+        <Property name="Name">LED29</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED30" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s27</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 103</Property>
+        <Property name="Name">LED30</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED31" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s26</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 103</Property>
+        <Property name="Name">LED31</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED32" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s25</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 103</Property>
+        <Property name="Name">LED32</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED33" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s24</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 103</Property>
+        <Property name="Name">LED33</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED34" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s23</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 103</Property>
+        <Property name="Name">LED34</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED35" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s22</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 103</Property>
+        <Property name="Name">LED35</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED22" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s21</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 87</Property>
+        <Property name="Name">LED22</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED23" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s20</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 87</Property>
+        <Property name="Name">LED23</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED24" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s19</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 87</Property>
+        <Property name="Name">LED24</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED25" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s18</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 87</Property>
+        <Property name="Name">LED25</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED26" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s17</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 87</Property>
+        <Property name="Name">LED26</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED27" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s16</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 87</Property>
+        <Property name="Name">LED27</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED28" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s15</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 87</Property>
+        <Property name="Name">LED28</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED15" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s14</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 71</Property>
+        <Property name="Name">LED15</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED14" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s7</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">305, 55</Property>
+        <Property name="Name">LED14</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED16" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s13</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 71</Property>
+        <Property name="Name">LED16</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED13" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s6</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">270, 55</Property>
+        <Property name="Name">LED13</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED17" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s12</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 71</Property>
+        <Property name="Name">LED17</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED12" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s5</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">233, 55</Property>
+        <Property name="Name">LED12</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED18" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s11</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 71</Property>
+        <Property name="Name">LED18</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED11" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s4</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">197, 55</Property>
+        <Property name="Name">LED11</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED19" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s10</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 71</Property>
+        <Property name="Name">LED19</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED10" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s3</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">163, 55</Property>
+        <Property name="Name">LED10</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED20" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s9</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 71</Property>
+        <Property name="Name">LED20</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label21" children="Controls">
+        <Property name="Text">Boom</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">296, 34</Property>
+        <Property name="Name">Label21</Property>
+        <Property name="Size">38, 18</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED21" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s8</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 71</Property>
+        <Property name="Name">LED21</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label20" children="Controls">
+        <Property name="Text">Right Lateral</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">257, 21</Property>
+        <Property name="Name">Label20</Property>
+        <Property name="Size">43, 31</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label19" children="Controls">
+        <Property name="Text">Left Lateral</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">220, 21</Property>
+        <Property name="Name">Label19</Property>
+        <Property name="Size">37, 31</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label18" children="Controls">
+        <Property name="Text">Left Front</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">188, 21</Property>
+        <Property name="Name">Label18</Property>
+        <Property name="Size">32, 31</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label17" children="Controls">
+        <Property name="Text">Left Back</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">154, 21</Property>
+        <Property name="Name">Label17</Property>
+        <Property name="Size">32, 31</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label16" children="Controls">
+        <Property name="Text">Right Front</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">118, 21</Property>
+        <Property name="Name">Label16</Property>
+        <Property name="Size">32, 31</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED9" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s2</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">127, 55</Property>
+        <Property name="Name">LED9</Property>
+      </Object>
+      <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label15" children="Controls">
+        <Property name="Text">Right Back</Property>
+        <Property name="UseCompatibleTextRendering">True</Property>
+        <Property name="Font">Segoe UI, 8pt</Property>
+        <Property name="Location">84, 21</Property>
+        <Property name="Name">Label15</Property>
+        <Property name="Size">32, 31</Property>
+      </Object>
+      <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED1" children="Controls">
+        <Property name="OutputValue">0</Property>
+        <Property name="BindingSrcObject" />
+        <Property name="BindingSrcType">Signal</Property>
+        <Property name="BindingSrcPath">atrias_system/DAQ/medulla_errors/s1</Property>
+        <Property name="TargetName">TargetPC1</Property>
+        <Property name="Size">16, 16</Property>
+        <Property name="Location">91, 55</Property>
+        <Property name="Name">LED1</Property>
+      </Object>
+      <Property name="Text">Medulla Errors</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="BackColor">Control</Property>
+      <Property name="Font">Segoe UI, 10pt, style=Bold</Property>
+      <Property name="Location">2, 10</Property>
+      <Property name="Name">GroupBox6</Property>
+      <Property name="Size">337, 188</Property>
     </Object>
     <Property name="BackColor">Control</Property>
     <Property name="ClientSize">1920, 1080</Property>
